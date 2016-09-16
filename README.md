@@ -1,7 +1,7 @@
 # argute
 is a simple irc bot written in golang. It hangs @ irc.soylentnews.org
 
-### Install
+### Get
 ```
 go get http://github.com/mecctro/argute
 go build
