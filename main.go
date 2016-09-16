@@ -67,16 +67,17 @@ func main() {
 	// Start RNN training
 	genCharRNN()
 	runCharRNN()
-	rnnTicker := time.NewTicker(1 * time.Minute)
+	rnnTicker := time.NewTicker(30 * time.Second)
 	rnnQuit := make(chan struct{})
 	go func() {
 		for {
 			select {
 			case <-rnnTicker.C:
-				if rnnTrainStatus == false {
+				if rnnTrainStatus {
 					go runCharRNN()
+				} else {
+					go genCharRNN()
 				}
-				go genCharRNN()
 			case <-rnnQuit:
 				rnnTicker.Stop()
 				return
