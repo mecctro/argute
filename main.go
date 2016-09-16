@@ -414,6 +414,7 @@ func main() {
 			if outputMessage != "" {
 				ircobj.Privmsg(event.Arguments[0], outputMessage)
 			} else {
+				saveCharRNNLog(event.Message())
 				//ircobj.Privmsg(event.Arguments[0], "Sorry, I couldn't get that right now.")
 			}
 			//} else {
@@ -435,6 +436,21 @@ func main() {
 			}
 		}*/
 	}
+}
+
+func saveCharRNNLog(input string) {
+	in, err := os.OpenFile("./lib/bin/input/irc.txt", os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0666)
+	if err != nil {
+		fmt.Println(err)
+	}
+	defer in.Close()
+
+	// Write the string to file
+	_, err = io.WriteString(in, input+" ")
+	if err != nil {
+		fmt.Println(err)
+	}
+	//}
 }
 
 func runCharRNN() {
