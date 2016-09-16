@@ -73,11 +73,10 @@ func main() {
 		for {
 			select {
 			case <-rnnTicker.C:
-				if rnnTrainStatus {
-					go runCharRNN()
-				} else {
+				if rnnTrainStatus == false {
 					go genCharRNN()
 				}
+				go runCharRNN()
 			case <-rnnQuit:
 				rnnTicker.Stop()
 				return
