@@ -6,8 +6,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
-	"log"
-	"net/http"
 	"os"
 	"os/exec"
 	"regexp"
@@ -15,6 +13,7 @@ import (
 	"strings"
 	"time"
 
+	"./lib/argute"
 	"./lib/fah"
 
 	irc "github.com/thoj/go-ircevent"
@@ -62,46 +61,6 @@ type slotInfo []struct {
 	} `json:"options"`
 	Reason string `json:"reason"`
 	Idle   bool   `json:"idle"`
-}
-
-type insult struct {
-	Insult    string `json:"insult"`
-	Source    string `json:"source"`
-	SourceURL string `json:"sourceUrl"`
-}
-
-type chuck struct {
-	Type  string `json:"type"`
-	Value struct {
-		ID         int           `json:"id"`
-		Joke       string        `json:"joke"`
-		Categories []interface{} `json:"categories"`
-	} `json:"value"`
-}
-
-type quote struct {
-	QuoteText   string `json:"quoteText"`
-	QuoteAuthor string `json:"quoteAuthor"`
-	SenderName  string `json:"senderName"`
-	SenderLink  string `json:"senderLink"`
-	QuoteLink   string `json:"quoteLink"`
-}
-
-type cookie []struct {
-	Fortune struct {
-		Message string `json:"message"`
-		ID      string `json:"id"`
-	} `json:"fortune"`
-	Lesson struct {
-		English       string `json:"english"`
-		Chinese       string `json:"chinese"`
-		Pronunciation string `json:"pronunciation"`
-		ID            string `json:"id"`
-	} `json:"lesson"`
-	Lotto struct {
-		ID      string `json:"id"`
-		Numbers []int  `json:"numbers"`
-	} `json:"lotto"`
 }
 
 func main() {
@@ -326,7 +285,7 @@ func main() {
 					r, _ := regexp.Compile(prefix + "insult\\s(.*)")
 					res := r.FindAllStringSubmatch(inputMessage, -1)
 
-					v := getInsult()
+					v := argute.GetInsult()
 					if v.Insult != "" && len(res) > 0 {
 						outputMessage = res[0][1] + ": " + v.Insult
 					}
@@ -335,7 +294,7 @@ func main() {
 				}
 
 			case strings.Compare(inputMessage, prefix+"chuck") == 0:
-				v := getChuck()
+				v := argute.GetChuck()
 				if v.Value.Joke != "" {
 					outputMessage = strings.Replace(v.Value.Joke, "&quot;", "\"", -1)
 				} else {
@@ -344,13 +303,13 @@ func main() {
 
 			case strings.Compare(inputMessage, prefix+"quote") == 0:
 
-				v := getQuote()
+				v := argute.GetQuote()
 				if v.QuoteText != "" {
 					outputMessage = "\"" + v.QuoteText + "\" : " + v.QuoteAuthor
 				}
 
 			case strings.Compare(inputMessage, prefix+"cookie") == 0:
-				v := getCookie()
+				v := argute.GetCookie()
 				if v[0].Fortune.Message != "" {
 					outputMessage = "Fortune: " + v[0].Fortune.Message + " | Learn Chinese: " + v[0].Lesson.English + " / " + v[0].Lesson.Chinese + " (" + v[0].Lesson.Pronunciation + ") | "
 					lotto := ""
@@ -476,98 +435,6 @@ func main() {
 			}
 		}*/
 	}
-}
-
-func getInsult() insult {
-	client := &http.Client{}
-	req, err := http.NewRequest("GET", "http://quandyfactory.com/insult/json", nil)
-	if err != nil {
-		fmt.Println(err)
-	}
-	resp, err := client.Do(req)
-	if err != nil {
-		log.Fatalln(err)
-	}
-	defer resp.Body.Close()
-	req.Header.Add("Accept", "application/json")
-
-	decoder := json.NewDecoder(resp.Body)
-	v := insult{}
-	err = decoder.Decode(&v)
-	if err != nil {
-		fmt.Println(err)
-	}
-
-	return v
-}
-
-func getChuck() chuck {
-	client := &http.Client{}
-	req, err := http.NewRequest("GET", "http://api.icndb.com/jokes/random", nil)
-	if err != nil {
-		fmt.Println(err)
-	}
-	resp, err := client.Do(req)
-	if err != nil {
-		log.Fatalln(err)
-	}
-	defer resp.Body.Close()
-	req.Header.Add("Accept", "application/json")
-
-	decoder := json.NewDecoder(resp.Body)
-	v := chuck{}
-	err = decoder.Decode(&v)
-	if err != nil {
-		fmt.Println(err)
-	}
-
-	return v
-}
-
-func getQuote() quote {
-	client := &http.Client{}
-	req, err := http.NewRequest("GET", "http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en", nil)
-	if err != nil {
-		fmt.Println(err)
-	}
-	resp, err := client.Do(req)
-	if err != nil {
-		log.Fatalln(err)
-	}
-	defer resp.Body.Close()
-	req.Header.Add("Accept", "application/json")
-
-	decoder := json.NewDecoder(resp.Body)
-	v := quote{}
-	err = decoder.Decode(&v)
-	if err != nil {
-		fmt.Println(err)
-	}
-
-	return v
-}
-
-func getCookie() cookie {
-	client := &http.Client{}
-	req, err := http.NewRequest("GET", "http://fortunecookieapi.com/v1/cookie", nil)
-	if err != nil {
-		fmt.Println(err)
-	}
-	resp, err := client.Do(req)
-	if err != nil {
-		log.Fatalln(err)
-	}
-	defer resp.Body.Close()
-	req.Header.Add("Accept", "application/json")
-
-	decoder := json.NewDecoder(resp.Body)
-	v := cookie{}
-	err = decoder.Decode(&v)
-	if err != nil {
-		fmt.Println(err)
-	}
-
-	return v
 }
 
 func runCharRNN() {
