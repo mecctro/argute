@@ -222,14 +222,15 @@ func main() {
 					genCharRNN()
 
 					// Cleanup parts, we only want full sentences.
-					var r = regexp.MustCompile(".*?\\.\\s(.*[.”\"])\\s")
+					/*var r = regexp.MustCompile(".*?\\.\\s(.*[.”\"])\\s")
 					res := r.FindAllStringSubmatch(rnnOutput, -1)
 
 					if len(res) > 0 {
 						outputMessage = res[0][1]
 					} else {
 						outputMessage = "sorry!"
-					}
+					}*/
+					outputMessage = rnnOutput
 				} else {
 					outputMessage = "Thou hast no power here."
 				}
