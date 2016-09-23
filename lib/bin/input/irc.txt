@@ -1,1 +1,1875 @@
-NCommander - see janrinok's suggestion above regarding obfusacting the email address. spam is no fun...waddup doh ciri: 2spoopy4me mecctro: Trianglular ice beaners. argute will now learn from all the inputs ;) these kids can't tell the difference between kids' ecstasy and real ecstasy [Threatpost | The first stop for security news] Researcher Proves Viability of NAND Mirroring to Bypass iPhone Passcode Restrictions - http://threatpost.com/researcher-proves-viability-of-nand-mirroring-to-bypass-iphone-passcode-restrictions/120648/ [Threatpost | The first stop for security news] Bugs in Signal Messaging App Corrupt Attachments, Crash App - http://threatpost.com/bugs-in-signal-messaging-app-corrupt-attachments-crash-app/120643/ [Threatpost | The first stop for security news] FBI Encouraging Ransomware Victims To Report Infections - http://threatpost.com/fbi-encouraging-ransomware-victims-to-report-infections/120656/ `chitty start ~last cmn32480 03<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"> <head> <title>Access forbidden!</title> <link rev="made" href="mailto:you@example.com" /> <style type="text/css"><!--/*--><![CDATA[/*><!--*/      body { color: #000000; background-color: #FFFFFF; }     a:link { color: #0000CC; }     p,    http://chromas.0x.no/s/soylent_log.php ~seen xlefey cmn32480, xlefey not seen in #Soylent ~seen xlefay cmn32480, xlefay not seen in #Soylent [SoylentNews] - Seagate Sued by its Own Employees After Company Falls for Phishing Scam - http://sylnt.us/19p - disk-usting- holy crap, this day is dragging I agree mechanicjay only like 5 hours left before the weekend. HA! I got 1 I just feel like taking a nap or something. gonna do a fire and make smores tonight I think if my wife ever texts me back good night for that here at least here too low 70's cmn32480 that sounds great, temp has started to drop to about 50 here at night -- perfect for a fire on the patio no chance of rain yeah after dark it ought to be mid/low 60's kids w/ glow sticks... bottle of <insert adult beverage here> about the same here cmn32480 was thinking about doing some drinks and kabobs need to regain strength from being bored as fuck all day. roasting weiners! me thinks that Deucalion doesn't wanna sleep on a wet blanket sucks when they smell like wet-dog I still hang clothes when weather permits. .me hopes that wasn't in Deucalion's dirty undershorts cmn32480, humidity is all - can hang stuff out when it's 5C and have it dry fine... given a breeze gets too cold to hang dry here in winter. just end up with icycles frozen shorts are no fun icicle* - also, fuck that word. worse then going in the pool for shrinkage Don't think I can say I've ever worn frozen shorts... I look away for 10 minutes, and look at what I came back to.... typical yeah 
+whatcha got lingering in svn (or what-have-you)?
+just stuff i've been working on and lazy about committing, working on an application that generates markup
+like a gui, or converter or something?
+we have lots of ads, and specialists use a crufty tool at the moment to generate pages, since the 2017 stuff is coming out this is a good time to work on it
+webapp
+ah
+i have the delivery mechanism working, and a mostly built out wizard for the process, and a new template. there are some changes between the old and the new that weren't addressed until this last week and i've been busy working on other shit
+so we're using google tag manager to install this crap onto 3rd party sites taht don't support stuff
+so the application emits html upon request via some javascript installed via gtm
+got all the auth kinks worked out, don't have to worry about rate limiting or anything, changed the schema all around
+no idea what google tags are, never had any work with them.
+so the idea is information is collected and then poked into a template and the resulting markup is stuffed into the db so we can serve it up
+then if there is a change, we can regenerate all the affected pages without having specialists go into 3rd party site backends and install the pages
+that old way results in lots of debt
+so, it's like a template pre-cache/gen
+yup
+got caching working too
+sounds nifty
+i built the app the traditional way, next time i'm doing errthang via api
+it's totally the way to go, fuck
+basically rpc?
+yup!
+yea, then there's your no-key stores, or what-have-you
+the stack is getting better, much better
+fire... whiskey.... quiet.... Cuz the kids aren't invited
+totally, i'm still terrified of clientside apps though
+they're neat but shit is changing so fast why invest
+probably go vue.js since angular is kinda beastly
+I love rdbms, but I'm finding myself use no-key stores more and more for simple projects.
+Yea, the speed this shit is moving at is mind-boggling.
+better fits for most of our workflows, it's like using photoshop for basic resizing tasks, overkill.
+exactly, in go-lang managed buffers are really simple/fast for in-app no-key storage.
+golang*
+My local walmart often has to do more with golang.
+I'm so happy to be moving away from php...
+i got a scrapper working with it
+how's the version control for libs?
+that's one thing that i love about rust bruh
+I really didn't want to put the effort into JS for server-side.
+fuck no
+okie dokie
+it just seemed... tacky
+well, and unstable...
+js is such a mixed bag dude
+it's pretty cool, and ugly at the same time
+it just depends on what you're doing, like anything else.
+I would love to toy with rust
+I haven't had time yet, though.
+golang is more mature, i'm closely watching it
+gotta wrap up these applications first then i'll work on a reimplementaiton
+going to be around q1
+I watched golang for 3 years before I jumped, rust I'm a little uncertain about yet. elixer is interesting, but I'm not holding my breath.
+hack isn't horrible looking / hhvm for jit php
+oh crystal-lang.org
+i'll be dabbling with php for a long while, ~shrugs~ no reason not to use go or others for shit
+I'm not a huge fan of ruby tbh
+for production apps i want elixir
+just spin up a few vm and link them, gg.
+current rank for team SoylentNews is 430
+php still has its place for me, in particular I still find it to be a really handy template lang.
+yeah
+you know what's kinda fun? tcl/tk
+or when you're too lazy to handle C variables for some seriously simple CLI stuffs
+never heard of tcl/tk
+old as shit
+pretty cool though for whipping up a gui
+!g tcl/tk gui example
+393,000 results | Tk examples - Wiki for Tcl/Tk @ http://wiki.tcl.tk/1291 | Show me an example - Wiki for Tcl/Tk @ http://wiki.tcl.tk/300 | User Interface Design for Tcl/Tk - Wiki for Tcl/Tk @ http://wiki.tcl.tk/14074 | TkDocs - Tk Tutorial - A First (Real) Example - TkDocs Home @ http://www.tkdocs.com/tutorial/firstexample.html | user interface - Tcl/Tk examples? -
+Stack Overflow @ http://stackoverflow.com/questions/166231/tcl-tk-examples
+golang is still a bit behind with that, especially gpu handling... it's kind-of a handle.
+unless you feel like c-binding
+oh that's what i was looking up, conrad? conrod for rust, via piston
+gui shiz for rust
+!g conrod rust piston
+18,700 results | GitHub - PistonDevelopers/conrod: An easy-to-use, 2D GUI library ... @ https://github.com/PistonDevelopers/conrod | Conrod - A 100% Rust GUI Library · Piston - Piston Blog @ http://blog.piston.rs/2014/08/30/conrod-update/ | This Year In Conrod · Piston - Piston Blog @ http://blog.piston.rs/2016/09/13/this-year-in-conrod/ | conrod - Rust @
+http://docs.piston.rs/conrod/conrod/ | Conrod �" A Rust GUI Library | Hacker News @ https://news.ycombinator.com/item?id=8243277
+I was interesting in rust for lower level stuff
+interested*
+can't type today I guess
+meh it's friday
+golang just has me excited with programming again, was started to get really burnt out with php for backend.
+starting*
+jebus
+let me know how your google tag ad thingamajigger works.
+I'll have to bookmark these for later toilings.
+oh yes
+so google tag manager is pretty slick, in the ad world its king
+you had me at alphabet
+our business revolves heavily around remarketing and google makes it pretty crazy to integrate with services
+wtf is remarketing
+you look for shoes
+a cookie is placed via google tag manager
+I get the jist
+then when other ads come up
+sorry someone came by
+no worries
+we change whats displayed based on that
+we track conversions out the ass
+from phone calls, to dealer sales, to web traffic, mailers etc.
+I would imagine it would be paramount in that type of business
+the cross referencing is the stupid hard work
+yeah, we can distill it down to certain figures, "you spent X to get Y"
+for example we doubled this guys calls
+and their sales dropped
+because they weren't picking up the phone, it would ring through
+lol
+ciri is a butthole
+gotta pick up the phone!
+facebook/social media is king right now, cheaper than others, biggest profit area is mail though
+yeah, well some of these dealerships are run terribly, there's one we do business with that sells 600 cars a month
+not bad
+really opened my eyes up, for example, this one in Orange County is getting 350k from the manufacturer to move X units
+200 if they do X, 350 if they do all. straight cash
+they undercut all the competition by ~ $2400
+haha
+like 12,000 off msrp
+it's ridiculous
+sounds it
+it's all a shell game with dealerships
+Think of it is called "racist" and "antisemitic" though he has direct shell access. In my game, because my count is at 69.
+unsurprisingly
+asshole to mouth
+xD
+if you catch my drift.
+sometimes, in the heat of the moment...
+since we have the skinny on deals, kinda funny when coworkers go buy a car
+I bet you guys got "the hook up"
+best time is the end of the month
+;)
+heyooooo
+bbiab gotta stretch
+;)
+ciri: faggot
+faggots are known to run hot leer jets under their arm.
+arti|work: Look up milo yiannapolous's dangerous faggot tour across us campuses.
+----^
+Karma - --^: -1
+"stretch"++
+:'|
+["stretch"]++
+karma - ["stretch"]: 1
+["stretch"]++++
+:'|
+["stretch"]--
+karma - ["stretch"]: 0
+8==D++
+:'|
+[8==D]++
+karma - [8==d]: 1
+smoking's good for you. puts down a protective coating of tar to keep out pollution. it's like teflon for the lungs.
+[SoylentNews] - Researcher Bypasses iPhone 5c Security With NAND Mirroring - http://sylnt.us/19r - NAND|DNAN
+hey, one of those pending stories is nonsense. Trump and Thiel have both denied the rumour.
+thanks soycow4122
+Will look into it
+~gday crutchy
+ahoy!
+lol
+~macro ~buzzkill * privmsg .kick TheMightyBuzzard
+02  *** macro with trigger "~buzzkill" and PRIVMSG command template ".kick TheMightyBuzzard" saved
+you the bestest crutchy
+of course it wont actually do anything :p
+i guess it could be used as a counter to ~blame
+give Bytram some ammo to fire back :p
+~buzzkill
+.kick TheMightyBuzzard
+tee hee
+I love it
+but I been drinking
+friday_night++
+karma - friday_night: 2
+~time Cmn32480
+Friday, 16 September 2016 @ 8:23 pm GMT-4 - Baltimore, MD, USA 
+~time
+Saturday, 17 September 2016 @ 10:23 am AEST - Melbourne VIC 
+i'm still on my first coffee of this relaxing saturday morning
+playing some civ5
+I'm on my second whiskey of the night
+soon to be third 
+bytram watch this
+~buzzkill
+.kick TheMightyBuzzard
+Cmn32480_phone: ROFLMAO!!!!
+i should really clean up exec's source code. so much crap :|
+it doesn't actually work.... but hilarious nonetheless
+yeah would be a bit risky putting a shell exec bot in charge of this place methinks
+crutchy - that's a fine goal... Should be done around 2020?
+maybe 2025
+can't be too unrealistically optimistic
+~time format=%Y-%m-%d_%H:%M:%S 
+location not found - UTC timestamp: Saturday, 17 September 2016, 12:38 am
+good plan
+^^^ idea for setting a user's preference on how they want date/time displayed
+cf: strftime()
+Cmn32480_phone: I'm curious... are you using an app on your phone, or just using the web interface to access IRC?
+app on phone
+andchat 
+mind if I ask what app?
+Am on wifi at the house
+oh, 'andchat' is the name of the app?
+break time...
+biab
+correct
+crutchy  - are s'mores a completely American thing?
+dunno. i never seen them here. well, not by the name of s'mores anyway
+what are they?
+Graham cracker, marshmallow and a bit of chocolate
+marshmallow roasted over fire
+an ooey gooey mess
+hmm yeah fired marshmallows are pretty good
+moonshine++
+karma - moonshine: 1
+i have a tub of ben & jerries karamel sutra in the freezer
+so yummy
+shit. coffee mug is empty :|
+some bastard drank it all
+not the same... try them aometime... we have made them.by roasting the marshmallows on the grill too
+check for a hole in the bottom
+i'd probably have to order them online
+they probably are at some stores, but i live in a regional city
+marshmallows? chocolate?  or graham crackers?
+oh you don't actually buy them as s'mores?
+No the fun is making them 
+ah
+roasting the marshmallows erc
+e t c
+the ingredients would be gone before the final assembly knowing my kids
+but they'd love it 
+yup
+something new and different 
+us damn Americans corrupting the innocent aussie children
+could be worse. i've seen youtube vids of what russian kids get up to
+i'll take american inflence over that anyday :p
+s/le/lue/
+<crutchy> i'll take american influence over that anyday :p
+:-)
+we just rot their teeth... Russians rot their liver?
+https://www.youtube.com/watch?v=_x7-Mmr_Lk4
+^ 03Crazy Russian Kids Climb Old Soviet Tower - YouTube
+pics to follow later
+~update-exec-file scripts/time.php
+attempting to download https://raw.githubusercontent.com/crutchy-/exec-irc-bot/master/scripts/time.php
+successfully saved downloaded content to "/home/chris/Downloads/Exec/exec-irc-bot-master/scripts/time.php"
+~update-exec-file scripts/time_lib.php
+attempting to download https://raw.githubusercontent.com/crutchy-/exec-irc-bot/master/scripts/time_lib.php
+successfully saved downloaded content to "/home/chris/Downloads/Exec/exec-irc-bot-master/scripts/time_lib.php"
+~rehash
+successfully reloaded exec file (164 aliases)
+~time-prefs
+syntax: ~time-prefs pref value
+format => format string per http://php.net/manual/en/function.date.php
+~time-prefs format U
+  successfully saved prefs
+~time
+Saturday, 17 September 2016 @ 11:16 am AEST - Melbourne VIC 
+derp
+~time-prefs format c
+  successfully saved prefs
+derp
+~time
+Saturday, 17 September 2016 @ 11:17 am AEST - Melbourne VIC 
+hmm
+~update-exec-file scripts/time.php
+attempting to download https://raw.githubusercontent.com/crutchy-/exec-irc-bot/master/scripts/time.php
+successfully saved downloaded content to "/home/chris/Downloads/Exec/exec-irc-bot-master/scripts/time.php"
+~time
+syntax: ~time location
+time data courtesy of Google
+~update-exec-file scripts/time_lib.php
+attempting to download https://raw.githubusercontent.com/crutchy-/exec-irc-bot/master/scripts/time_lib.php
+successfully saved downloaded content to "/home/chris/Downloads/Exec/exec-irc-bot-master/scripts/time_lib.php"
+https://www.youtube.com/watch?v=TW-4RtSM7N4
+^ 03Green Jello - House Me Teenage Rave - YouTube
+wonder if it can't write the settings file
+aye focker!
+~time-prefs format c
+  successfully saved prefs
+~time
+Saturday, 17 September 2016 @ 11:18 am AEST - Melbourne VIC 
+Aye, bastard!
+~weather-prefs color 0
+  successfully saved prefs
+~weather-prefs color 4
+  successfully saved prefs
+~weather
+4Melbourne VIC - currently 16°C, mostly sunny, wind N at 35 km/h, humidity 68% - Saturday mostly sunny (11°C:19°C), Sunday showers (7°C:12°C), Monday mostly cloudy (9°C:16°C), Tuesday rain (8°C:18°C)
+hmm. that works
+~weather el centro, ca
+10El Centro, CA, USA - currently 99°F / 37°C, sunny, wind SE at 5 mph, humidity 11% - Friday clear (68°F:100°F / 20°C:38°C), Saturday sunny (72°F:105°F / 22°C:41°C), Sunday sunny (77°F:107°F / 25°C:42°C), Monday mostly cloudy (75°F:102°F / 24°C:39°C)
+it will overnight cool down to freezing...just watch. 
+~weather
+syntax: ~weather <location>
+https://www.youtube.com/watch?v=TW-4RtSM7N4
+~weather riyadh
+10Riyadh Saudi Arabia - currently 84°F, clear with periodic clouds, wind S at 0 mph, humidity 20% - Saturday sunny (81°F:108°F), Sunday sunny (78°F:109°F), Monday sunny (76°F:105°F), Tuesday sunny (77°F:103°F)
+~weather new delhi
+10New Delhi, Delhi, India - currently 81°F, fog, wind S at 0 mph, humidity 84% - Saturday sunny (77°F:97°F), Sunday sunny (77°F:96°F), Monday sunny (78°F:96°F), Tuesday sunny (79°F:97°F)
+~weather south pole
+south pole temp: -66 °F
+https://www.youtube.com/watch?v=Q-wiiNsuCCo
+^ 03Green Jelly (live) - Misadventures of Shitman - 10-09-08 - YouTube
+HAHAHAHAHAHHAHA
+~weather cmn32480
+10Baltimore, MD, USA - currently 71°F / 22°C, cloudy, wind E at 6 mph, humidity 58% - Friday partly cloudy (65°F:76°F / 18°C:24°C), Saturday mostly sunny (72°F:82°F / 22°C:28°C), Sunday partly cloudy (73°F:85°F / 23°C:29°C), Monday scattered thunderstorms (70°F:83°F / 21°C:28°C)
+great night for s'mores and a good stiff drink around the fire
+Man, I'm two months' away from a stiff drink by the fire. 
+'Tis painful. 
+[SoylentNews] - Tesla Wins Massive Contract to Help Power the California Grid - http://sylnt.us/19s - tesla-unplugged
+^ can't wait for that, should mean fewer power outages
+http://www.cnbc.com/2016/09/15/trump-camp-denies-report-that-he-would-consider-peter-thiel-for-supreme-court.html
+^ 03Trump camp denies report that he would consider Peter Thiel for Supreme Court
+http://money.cnn.com/2016/09/15/technology/peter-thiel-donald-trump-supreme-court/
+^ 03Peter Thiel denies he's talking to Donald Trump about Supreme Court job - Sep. 15, 2016
+NCommander: They have both denied it. Why is this still pending?
+i'm pretty sure the naming of US legislation usually has no bearing on its actual purpose
+they just give them nice sounding names to appease the masses
+(that they are sure won't read them)
+Bytram: so, publishing every stupid rumour about a politician these days? Abandoning all pretense of nerdy topic matter?
+the story already mentioned that there is doubt as to the veractiy of the claims, and I have added the links you provided to the story.
+and, if you read the
+founding docs for this site, there is no claim that it is to be exclusively 'nerdy'
+current rank for team SoylentNews is 429
+right, I wouldn't want it exculsively nerdy (not one of those extremists) but this is getting out of hand -- 5 non-nerd per week is probably ideal
+I'm tired and I've not had a full night's sleep in over two weeks... am gonna call it a night.
+well, you'll have to find someone else to deal with it.  just before you posted your last comment, I posted:
+I'm tired and I've not had a full night's sleep in over two weeks... am gonna call it a night.
+wtf is a non-nerd article anyway?
+aren't nerds allowed to be interested in politics?
+probably something about sex.
+=)
+lol
+crutchy: not science, tech, or similar
+seems pretty vague to me
+sure, life can be vague
+so why try to pigionhole it?
+SoyCow4122: I'll be looking at the story queue tomorrow AM, please feel free to submit some 'nerdy' stories -- donot get me wrong, I like nerdy stories, too!
+embrace the vague!
+~gnight all
+~g'night Bytram|away sir o/
+SoyCow4122, if you join #rss-bot there's a bunch of rss feeds that spew out links to common nerdy story sites. feel free to submit away
+tbh i'm kinda over hearing about iphones and climate change
+We all are.... but I can't edit from my phone....
+if exec ever get working on the wiki again
+we can sub from.arthur
+i had a bit more of a tinker last night. decided to start again from scratch and just focus on a really simple proof script to work out the kinks in the basic token authentication stuff that seems to be giving me the shits the most
+i'll hop into it again in a little while
+swell.  yer a good man Charlie brown
+[SoylentNews] - 'Google Tax' Already Being Avoided, Says Australian Tax Office - http://sylnt.us/19t - accountants-legally-accounting
+too much caffeine. gonna be up a lil while yet
+time for some brewster's millions
+~buzzkill
+.kick TheMightyBuzzard
+~socialist TheMightyBuzzard 
+TheMightyBuzzard, YOU'RE a SOCIALIST!
+:p
+#socialist crutchy 
+crutchy, you're a socialist!
+you ever seen brewster's millions, crutchy?
+nop
+knowing what i do of your politics, i'd say you would love it.
+#g brewster's millions
+https://en.wikipedia.org/wiki/Brewster's_Millions_(1985_film) - "Brewster's Millions is a 1985 comedy film starring Richard Pryor and John Candy based on the 1902 novel of the same name by George Barr McCutcheon."
+[SoylentNews] - Donald Trump Wants Peter Thiel on the Supreme Court - http://sylnt.us/19u - open-up-libel-laws
+current rank for team SoylentNews is 427
+[SoylentNews] - Solar Sinter: Using Solar and Sand for 3D Printing on Site - http://sylnt.us/19v - glassy-eyed
+dindus--
+--dindus
+Karma - dindus: -1
+karma - dindus: -1
+As a parent sneaking out of the house to fuck and sleep doesn't sound so bad.
+tama: don't skip the commas
+UNCAUGHT EXCEPTION: TERMINATING
+http://arstechnica.com/tech-policy/2016/09/russia-bans-pornhub-youporn-tells-citizens-to-meet-someone-in-real-life/
+^ 03Russia bans Pornhub, YouPorn—tells citizens to “meet someone in real life” | Ars Technica
+In Russia, monkey spank you
+oh and lady christians don't forget to sacrifice two turtles when you menstruate
+tama: I don't <think> there's anything wrong with bombing/purging savages. Maybe Christian ideals would have been better if they allowed it. I mean, it worked out pretty great for Islam.
+Okay, chromas.
+Rugby rules are simple: The odd shaped ball makes you sad and need hugs, the other men try to give them to you
+[SoylentNews] - Mystery of Colourful Giant Plants of the Subantarctic Solved - http://sylnt.us/19w - turning-over-a-new-leaf
+tama: I <bet> she smells like Ragu and body odor
+Okay, chromas.
+there are pants that eat cars
+I've been promoted!
+I'm running the mixing board tomorrow
+Those are fun
+they are
+only fucked up once, but a minor fuck up
+https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/14316846_694232190741888_8086904506751760067_n.jpg?oh=6ff54c8f50258d405a3d9a73c82410e2&oe=58763584
+~g'day SirFinkus 
+oook
+fart a crust?
+fiik
+lol
+needs hyphens
+ethanol-fueled is familiar with rodent vaginas o.O
+like hide-a-bed
+i dunno how the script works
+what do you want crutchy 
+♪ i'm a stupid moron with an ugly face and a big butt, and my butt smells... and, i like to kiss my own butt ♪
+well shit. one of my upstream providers is down. can't get to huge chunks of the net.
+including here, except by phone.
+tama: if standards are good, double standards are twice as good
+Okay, chromas.
+Your performance was miserable
+you're up late TheMightyBuzzard 
+or early
+an hour early. couldn't sleep.
+[SoylentNews] - Paypal Wants to Become Your Daily Money Habit - http://sylnt.us/19x - hand-it-over
+ahh
+tomorrow is gonna suck
+not going to even get home unti llike 4 am
+ouch, that's 7h past my bedtime
+tama: Your parents will all <receive> phone calls instructing them to love you less now.
+Okay, chromas.
+Oh enough with the cloaking device. I can't make a second Klingon joke, it just doesn't work
+and then I have to get up at 8 am the following day
+http://www.msnbc.com/rachel-maddow/watch/trump-employs-symbols-of-us-racist-fringe-767279683702?cid=sm_fb_maddow is this real life
+^ 03Trump employs symbols of America's racist fringe | MSNBC
+tears in my eyes
+lol racis
+the media just simply doesn't understand lulz
+makes it so much funnier
+pep on tv
+pepe
+almost choked on my toast
+thanks a lot, photo of trump kissing pepe doll
+https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/14316950_1048428865263943_7848164385985870309_n.jpg?oh=9e4f433883b801fc35272c80d9e32995&oe=587BDE26
+a slut is a slot
+[SoylentNews] - Census Bureau Releases Disturbingly Rosy Household Income Report - http://sylnt.us/19y - where's-my-trickle-down?
+ciri: That lady has never so much as tossed a salad, unless of course you mean sexually. im sure she has eaten out her husband's ass after he recieved Tim kaine's massive load of semen.
+chromas: Unless you <think> there is so square i rounded her triangle.
+white space dependency is a product of inbreeding
+You could turn it into a book
+SoylentNews Presents Hacking DOS, an NCommander novel
+or Tyler Perry's Meet the Soylents
+chromas, I doubt there is much market for it unfortunately
+making dos programs?
+pinchy, doing retro computing stuff.
+pinchy, I'm very good at these type of specialist work, but I very rarely get a chance to do any of it.
+i take it doing web programming would be a death sentence for you?
+pinchy, I can do it, I did most of it for SN back at golive, and a ton since (such as the Apache 1.3 -> 2 port). I suck at website design though. 
+you could port SN to perl 6
+and nosql cloudscale
+chromas, fuck perl 6
+chromas, and postgresql for life
+Well I'll triple your pay if you port to postgresql then
+ciri: he died doin' what he loved
+chromas: Ciri: he conrotlent ic a way, is the reason jim henson died.
+ciri: CentOS
+chromas: Retroactively postulates a dutch oven of centos towards <aw.
+ciri: Bluehost
+chromas: ^ You are a douche bag.
+damn, son
+[SoylentNews] - VR's 2D Surprise, and Virtual Reality at the Tokyo Game Show - http://sylnt.us/19z - augmented-unreality
+chromas, 3*0 = 0
+:/
+Ssshhh
+Someone show this guy how to use PornHub before he gets arrested.
+Okay, make that 6*
+funny you are talking about web site design -- I'm looking at a 6-page web site developed with MS Office.  :P
+make that 8 pages -- and all formatting is done with <font> and <elementname style="foo"> techniques
+oh, and a nice dollup of <center> tags, too.
+did I mention it uses windows-1252 charset, and is MS's flavor of XML?
+Seems like WordPerfect would be ideal for web pages since it's already tag-style markup
+chromas: you have a point
+Good Morning. 
+Chingon Gueys
+^ 03Download Microsoft Visual C++ 2010 Service Pack 1 Redistributable Package MFC Security Update from Official Microsoft Download Center ( http://www.microsoft.com/en-us/download/details.aspx?id=26999 )
+Bytram, I broke the 4k word mark.
+so, is that 8KB or 16KB?  ;)
+Bytram, depends on the architecture word size
+current rank for team SoylentNews is 426
+   NCommander I'd noticed you were working on a novel... wanted to wait 'til I was sure you'd finished with your writing
+Bytram, novel probably the right way to put this
+!woop
+idea: split it into two (or more) parts and release separately?  /me has not yet looked at said novel
+~g'day NCommander 
+~g'day Bytram 
+o.O
+urg.
+Bytram, feel free to look at it and see if its dividable. Most of the word count is due to code though
+oh. ok. /me dons protective gear and flashlight (does not want to be eaten by a grue)
+s/flashlight/torch/
+<Bytram> oh. ok. /me dons protective gear and torch (does not want to be eaten by a grue)
+We could probably split it on the section between interrupt handling and FreeDOS installation
+Bytram, that's been a thing for the last year
+Got implemented with rehash 
+Or more specifically, got fixed with rehash
+nc "And with that, 73 de NCommander!"   ?? /me no understand
+Bytram, 73 is ham speak: http://ham.stackexchange.com/questions/345/why-do-hams-often-conclude-messages-with-73
+^ 03jargon - Why do hams often conclude messages with "73"? - Amateur Radio Stack Exchange
+clicky
+Bytram, seemed appropiate since I was asking for community help with ham stuff
+I wonder if there are any maker spaces and/or ham 'rallies' in your area?
+Bytram, the ham community in NYC seems non-existant. Not hugely surprising because this is radio hell due to all the steel in buildings
+Doh!  makes sense
+^ 03On the Origin of "73"
+Bytram, thanks
+Yeah, I had a fair bit of fun writing this
+that's funny, I had a fair bit of fun writing on this: https://soylentnews.org/article.pl?sid=16/09/16/1529220
+^ 03SN article:  VR's 2D Surprise, and Virtual Reality at the Tokyo Game Show 04(7 comments)
+that feel when the memes become true
+takyon, maybe I can convince some of the other editors to run their own topics of interest
+you mean original content?
+like the series you are doing>
+one thing I did want to see was the Book Club type thing
+I'm not sure what happened to that
+hey, Bytram, as long as you don't put the words "Business Intelligence" in your article
+not a problem!
+takyon, better than military intelligence
+NCommander, you should do a wiki article on how to include and link to an image. i don't think anyone else knows how except possibly pj.
+^^ 
+TheMightyBuzzard, ... you upload the file in rehash, and then <img src=*link*>?
+I thought we never wanted to use the image functionality ever?
+well i mean i could do it ghetto and scp the file but i've never gotten it to work from dev the few times i've poked it with a stick.
+NCommander: TheMightyBuzzard: would appreciate it if one (or both) of you could take a look at this (I've answered to the best of my ability, but I need someone who understands it better to reply)  https://soylentnews.org/comments.pl?sid=15530&cid=402467
+^ 03SN comment by [02martyb (76)] (02Score:2)
+TheMightyBuzzard, might be a problem with the database. Blobs are stored in SQL
+ahh, roger
+i'll figure it out one of these days i spose
+not that it especially matters. not an editor.
+Bytram, I'm deferring that to TheMightyBuzzard 
+I hate dealing with time zones
+TheMightyBuzzard, BTW, where's that site update you promised
+be coming one of these years
+i still got some debugging to do on comments but the code is written at least
+couple fencepost errors to chase down then it should be done. i'll hop on it prolly wednesday of next week after i get all relocated and resituated in OK
+NCommander: an idea... how much would an SDR dongle cost?
+was about to throw my vm and ssh privkey onto a usb key so i could monkey with it from any computer that can run virtualbox
+Bytram, 20-30 dollars. I have never worked with SDR though
+Bytram, for one that can do broadcast, I think they are more expensive, most of the HF ones start at like $200
+ahhh, didn't think of that. k.
+NCommander: PM
+Bytram, ?
+[SoylentNews] - Strange Brews: Making Beer with Boston River Water - http://sylnt.us/19- - I'll-drink-to-that
+So drinking that beer makes you into a red socks fan who thought the Big Dig was a well managed project?
+right, got my privkey n vm all socked away in an encrypted archive on a thumb drive. here's hoping the TSA don't ask for the pw cause it's not gonna happen.
+just bring some bottled boston river water, and unleash it on them if they ask for pw.
+coffee++
+karma - coffee: 2870
+Curious how many more articles I'm going to write
+Then might move onto something much more weirder. OS/2 maybe
+OS/2 is weird?
+well, I guess now maybe
+mecctro, well, OS/2 is basically the operating system that was meant to make the 80286/80386 work at full power, and uses things like hardware task switching
+(part of the reason its a nightmare to virtualize. It's the only production OS that I'm aware of that actually uses the Intel ring security features)
+There are a lot of issues with attempting to virtualive it, or any of the OS/DIGITS
+lol
+mecctro, the other idea I had was to dig out classic Mac OS and write some extensions, but that's a little obsecure even for me. I don't even know where I could possibly track down the 68k version of MPW or CodeWarrior
+mecctro, anything that does something odd in protected mode like multiple GDT segments, or using LDT tends to break most virtualization stuff. VirtualBox is probably running the pack right now, I've heard OS/2 1.x will actually work since it supported emulated 286 LOADALL
+NCommander, could always do something for a VAX
+TheMightyBuzzard, hardware quicksort and hardware calculate CRC
+God that architecture fucking weird
+quite a few people tried to port Linux to it and failed miserably
+Doesn't help that GCC's support for VAX at best is 'spotty'
+even better, plenty of quirks to lengthen the novel
+lol
+I had never heard about VAX before coming here, so I have no-idea.
+just never run into it "in the wild"
+i haven't since my bbs days. almost ended up buying one back around 2k though for kicks.
+on the trivia note, openvms is working on an x86 release
+well, that would might give me the oomph to fiddle.
+maybe*
+yup, s'what i was thinking
+load up a vm and write a bot that runs from it
+I'd be interested to dig-in, having never played with it, but a lil bot port would probably be funny.
+so there roadmap is aiming for 2018 for x86
+I dunno about the VAX, but DEC's MACRO11 assembler was a joy to behold -- consistent instruction set / operand nomenclature.
+their*
+the operator, e.g., "ADD" was *always*  "ADD", if the operands referenced different kinds of things, well, the OPERAND's reference clearly pointed out what kind of operand it was.
+nice
+TheMightyBuzzard, I heard about that. Maybe I should shoot them an resume
+Won't mind getting into OS development
+let's just say that IBM's 360 principles of operation reference was a *pain* after seeing MACRO-ll
+NCommander: I don't see how it could hurt, worst case OpenVMS implodes.
+[Threatpost | The first stop for security news] Snowden Slammed in House Committee Report - http://threatpost.com/snowden-slammed-in-house-committee-report/120661/
+(financially)
+NCommander, actually sounds fun
+bone the bathroom
+mmm
+[SoylentNews] - Lauri Love to be Extradited to the U.S. - http://sylnt.us/1a0 - on-extraditing-Love
+mkay, just gotta take the cast net out my tackle backpack and put the stuff that's gonna get checked with it in, pack up the clothes n toiletries i'm taking, and i should be good to go.
+sweet zombie jebus, they got me going all the way to charlotte nc then back to tn for the return trip
+gonna have a lovely time!
+TheMightyBuzzard: have a safe trip -- hope your arms don't get too tired with the extended journey. ;)
+gtg -- laters all!
+peace Bytrame
+http://www.reuters.com/article/us-usa-election-poll-idUSKCN11M2A4
+^ 03Race tightens in projected U.S. Electoral College vote: Reuters/Ipsos| Reuters
+I wouldn't be surprised if Clinton took PA (at least in my local area, a lot of typical Clinton rhetoric)
+Local news has all but outright smeared Trump here, especially for his visit.
+Talk about your obsecure hardware platforms
+sounds vaguely familiar NCommander... I'm certainly no Apple buff, though.
+wasn't that the first computer sold with a mouse?
+mecctro, the Lisa was basically a proto-Mac
+TheMightyBuzzard, I believe so
+ah, ok
+https://en.wikipedia.org/wiki/Apple_Lisa
+^ 03Wiki: Apple Lisa
+and they sold about 7 of them I think
+horrendous
+well xerox made them with mice before but they weren't exactly home use computers
+cmn32480, I made SN out of a pile of 7 year old abandon perl 
+I vote for expanding horizons of punishment.
+What do you think :P
+glutton for punishment
+*/tongue in cheek*
+that might be a little less obscure, to be fair lol
+I'm pretty sure, that some of the things you do violate the 8th Amendment
+mecctro, to put it in context, lisa supports Pascal, Basic, and COBOL as development environments
+i think we should go evolutionary for one of the next updates. maybe port everything to fastcgi
+you know... the one about cruel and unusual punishments
+TheMightyBuzzard, I'd like that. We could get off the Apache upgrade train and go to nginx
+make that bitch run on Windows!
+cmn32480, probably doable with cygwin ;.;
+where there's a will...
+TheMightyBuzzard, honestly, I'm wondering how hard it would be to make rehash accept markdown for articles
+ya, and really we could make it largely webserver variety independent since a LOT of them run fastcgi
+indeed
+mecctro - where tehre is a will there is usually a dead guy
+TheMightyBuzzard, rehash would suck considerably less for long comments and articles if we had markdown ... and maybe syntax highlighting :)
+NCommander, not terribly really but i dislike markdown as a general rule. it screws with stuff i meant to look like i wrote.
+TheMightyBuzzard, well add it as a choice
+cmd32480: a guy equipped with body armor, dead in a term tomb... 
+nod nod, that is highly doable. think there's already a lib for markdown even.
+looked into it like a year n change ago but didn't think to make it its own mode.
+TheMightyBuzzard, I may be tempted to add this: https://github.com/google/code-prettify
+^ 03GitHub - google/code-prettify: Automatically exported from code.google.com/p/google-code-prettify
+TheMightyBuzzard, should degrade nicely to stock HTML in case !JS blocked
+#smake NCommander 
+we just now getting rid of the last of the user-side js and you wanna add new?
+TheMightyBuzzard, we have optional user-side JS :P. Improved commenting anyone
+ya but that's going poof since we redid it in css
+Purely in CSS?
+purely. we are ninjas.
+Won't that break people with non-stock stylesheets
+shouldn't, no.
+i mean it might look like butt but it should function.
+i think it's live on dev right now if you wanna take a gander
+https://dev.soylentnews.org/article.pl?sid=14/04/02/0614223
+TheMightyBuzzard, huh, I wonder if SN will let me do syntax highlighting in an article
+^ 03A Pressing Question: Why Did You Lurk? - Dev.SN
+if it doesn't, it should.
+well I damned
+It kinda worked
+that's just a db setting you can tweak though. i just never bothered to figure out the syntax.
+Linebreaks got fucked up
+tweakable
+Got it work
+smoov
+hey, whatcha think about adding a textbox what lets users store their own custom CSS to be included for them on all SN pages?
+custom mini-theming sort of thing
+As long as we don't accidently cause a XSS
+I replace all the CSS on the site now, so it would help me, but not sure who else would find it useful...
+TheMightyBuzzard, ugh, this online hilighter has some issues
+yar, it would need to be thoroughly bytram'd
+mecctro, could lead to custom css sharing too
+though most folks just stick with the red cause they're AC
+There's certainly niftyness afoot, but XSS would scare the daylights out of me.
+even if it did allow js, i'm coming up blank as to how it could be used against anyone besides yourself unless you socially engineered them to use your malware as their user.css
+which you can frankly do now. you just have to get them using greasemonkey or the like as well.
+Rehash is putting spashes in shitty places
+*spaces
+but yeah, it shouldn't allow any scripting in it at all. which it wouldn't come to think of it since we'll be running CSP by then.
+TheMightyBuzzard, any idea how to make the editor less stupid w.r.t putting random spaces in (not that <pre> ever worked well)
+NCommander, yeurg, that's the js area of evilness. i try to avoid it if at all possible.
+but the spaces are prolly added in the perl so it shouldn't be all that difficult. would start tracing it down in admin.pl but it's prolly in.... Environment.pm
+okey doke. bout time to go shopping for groceries i'm not going to be here to eat. see you lot after while.
+hrm
+alright buzz, catch ya around.
+I have no idea how rehash works... any gotchas before blindly trying to waddle my way through master branch?
+tama: No mother should have to <worry> about her son being killed every time he commits armed robbery.
+Okay, chromas.
+tama: undo last
+Okay, chromas, deleted that 'No mother should have to' is 'about her son being killed every time he commits armed robbery.'.
+tama: No mother should have to <worry> about her sons being killed every time they commit armed robbery.
+Okay, chromas.
+mecctro, it's generally best to start at the top-level script, find the sub you're wanting to change, and open whatever file it's in for further chasing or editing.
+grep -rIHn 'sub foo' /home/dingus/rehash/ ftw
+I'll keep it in mind buzz, good luck with the shopping.
+!woopShipyard Pumpkinhead Ale in stores!
+!woop
+woop woop woop (\/) (;,,;) (\/)
+ou can't toast a twinkie in a ripped-out fireplace
+sounds good, love me some pumpkin ale
+is it good compared to other pumpking beers?
+pumpkin*
+[SoylentNews] - New ISO Standard Explains how to Kind-of Ignore Standards - http://sylnt.us/1a1 - standard-meta-standard
+sharpie in the pooper
+ciri: so what if I can't spell Armageddon, it's not the end of the world.
+arti: Why do you suppose it would help if i can't spell armageddon, it's fun again.
+Did you see the thing with pepe meme on msnbc?
+but the original language of the gods is Pascal
+no, its like mainstream now right? saw it in ben garrisons graphics
+http://www.msnbc.com/rachel-maddow/watch/trump-employs-symbols-of-us-racist-fringe-767279683702?cid=sm_fb_maddow
+^✓ 03Trump employs symbols of America's racist fringe | MSNBC
+lol headline
+HAHAHAHA
+ciri is a butthole
+Karma - ciri: flakes ciri: ariens got it!
+exec is an incubator
+emerge pumpkin beer
+[SoylentNews] - 6.6 Million Plaintext Passwords Exposed as Site Gets Hacked to the Bone - http://sylnt.us/1a2 - pass-the-salt
+http://indie88.com/the-filthy-aftermath-of-music-festivals/
+^ 03The Filthy Aftermath of Music Festivals | Indie88
+Dirty hippies
+Cleanup crews should collect the tents and resell them at the next fest
+it is pretty gross
+That's a disgrace.
+there's a long, storied tradition of such a mess -- witness what happened at 'Woodstock'
+He killed Snoopy?
+Yeah, indeed.
+gotta question
+a
+mhm?
+Must've gone on a quest to seek the answers.
+sounds tolkien-esque
+Do not meddle in the affairs of wizards, for they are subtle and quick to anger.
+except those gray ones.
+http://www.foxnews.com/opinion/2016/09/16/stop-insanity-high-school-football-fans-told-to-stop-chanting-usa-usa.html
+^ 03Stop the insanity! High school football fans told to stop chanting USA, USA | Fox News
+xenophobic racis drumpf supporters, they are!
+good, maybe they will stop attending and stop the sport altogether
+http://i.4cdn.org/b/1474147488627.jpg
+lol
+i wanna be an ALT-righter when I grow up
+ciri: #daddygate was a thing
+chromas: #Daddygate was a meeting one.
+ciri: but then I guess everything + gate is now
+chromas: And they were part of that). So when you rope other people are sexually boring. I guess sewing's billed separately.
+ciri: #gategate
+chromas: Is pleased with the order they're uploaded for the wall.
+Android is for faggots.
+.devoice Subsentient
+[SoylentNews] - Feed a Fever Starve a Cold? - http://sylnt.us/1a3 - i-got-a-headache-thiiiiiiiis-big
+.devioce Azrael
+.devoice Azrael
+ciri: fart bucket
+chromas: I'm trans-trans-gender. I'm sure a printed fart from the flood happening in the nuts repeatedly with a bucket of fried chicken i accidentally made pancakes.
+Wow that was a really intelligent way to say something really stupid.
+.voice Deucalion 
+ 0/ hi TheMightyBuzzard 
+I been done messing with irc groups and perms... I mebbe broke something
+sounds like par for the course. we woulda broke the site when that hardware maint night happened but i thought ahead and told the load balancer to ignore fluorine
+[SoylentNews] - Jeff Bezos on the Future of Humans in Space - http://sylnt.us/1a4 - deep-thoughts-with-Jeff-Bezos
+TheMightyBuzzard, glad someone is on the ball :)  Wait... isn;t that a sysop thing? :D
+ya, they was napping. i just happened to stop in while drinking and saw Bytram mention it.
+#smake crutchy 
+ciri: except this one. No public logs 
+chromas: I don't remember that one bro. The queen sightions of fiing be the shiz, except wiping.
+all drugs are are a perfect solution to every problem you have
+If anyone here is in the mood to submit a story (a link is helpful, but an actual text submission would be preferred) it would be a HUGE HELP... submission queue is a bit light atm.
+i gots nothin. i'm in full on wind down mode for the night and the ole gray matter is already got its shoes off and is sucking down its third beer.
+http://www.foxnews.com/opinion/2016/09/16/stop-insanity-high-school-football-fans-told-to-stop-chanting-usa-usa.html
+^✓ 03Stop the insanity! High school football fans told to stop chanting USA, USA | Fox News
+smoke break
+nicotine++
+karma - nicotine: 152
+Hyuuuugh
+I don't got much going for me 'cept booze
+And the San Diego Super Chargers
+https://www.youtube.com/watch?v=whNOfvyPpaM
+^ 03San Diego *SUPER* Chargers Fight Song! - YouTube
+#submit http://techraptor.net/content/kekraptor-digital-homicide-sues-valve-wants-steam-safe-space
+Submitting. There is a mandatory delay, please be patient.
+Submission successful. https://soylentnews.org/submit.pl?op=list
+They're suing valve too? 
+yuppers
+I just read they're suing customers and trying to get valve to 'dox' them
+wow lol
+that too, yep
+The valve pulled all their games 
+suing their customers?  that sounds like a sure-fire business plan... like burn-up-your-business-kind-of-sure-fire plan
+https://www.bloomberg.com/view/articles/2016-09-15/this-loophole-ends-the-privacy-of-social-security-numbers
+^ 03This Loophole Ends the Privacy of Social Security Numbers - Bloomberg View
+"Federal law is supposed to protect the privacy of your Social Security number from government inquiries -- but apparently that doesn’t extend to a check on whether you’ve paid back taxes and child support. In a decision with worrying implications for those who oppose a single national identification number, a divided federal appeals court has rejected a lawyer’s refusal to submit his Social Security number along with his renew
+al of Maryland bar membership."
+~gnight TheMightyBuzzard 
+wehreto?   https://medium.com/@GrrlScientist/distressed-ravens-show-empathy-is-for-the-birds-too-grrlscientist-248338c1809e#.jdtlkzqy9
+^✓ 03Medium
+[SoylentNews] - Air China Magazine Apologises Over 'Racist' Article - http://sylnt.us/1a5 - beware!-beware!
+[SoylentNews] - George Hotz: Make your Honda or Acura Semi-Autonomous for $999 - http://sylnt.us/1a6 - beta-testing-—-with-your-life-on-the-line
+ciri: always wipe after logging
+crutchy: "I'll wipe my ass with is the job of the brexiters have been better?
+ciri: the stuffing
+the stuffing wipes itself on the way out
+chromas: Ciri: the stuffing.
+tama: please <validate> me by laughing at my jokes
+Okay, chromas.
+ciri: Vote for Bleach 2016!
+chromas: There's a 60-dollar ghostbusters 2016 lego dimensions set coming out.
+ciri: Tbh I thought she was a 12 year old boy
+chromas: So this is not some 14 year old mermaid. It's homogenous.
+Her mouth says "no" but her bumps say "â¢â£²â ¢â¡".
+tama: if I <had> a bullet for every gender there was, I'd only need a double-barreled shotgun
+Okay, chromas.
+I'm taking over thoughts in your mind
+[SoylentNews] - The Ham Radio Parity Act Unanimously Passed By US House - http://sylnt.us/1a7 - *-*.*-.*-**.*-**.-*-.-.**-.*-*.***.*.-*.*-.-.-.*-*
+whew
+the schedule is fucking brutal
+last night it was 11am to 2am
+tonight 8pm to 3am
+and we get to do it all next weeked
+thirteen hour days with wild swings from 11am start to 8pm start? Is that a work schedule?
+If so, that's a recipe for health issues. :P
+I'm a roadie
+Oh. That would explain it.
+and now, running the board apparently
+I get to drive one of these http://presonus.com/products/StudioLive-2442AI
+^ 03StudioLive 24.4.2AI | PreSonus
+makes me feel all fancy
+coffee++
+karma - coffee: 2871
+Heh. I'm more familiar with the older style sound boards. I haven't run one since I was 18, though...been a while. :P
+all I know about it is that it costs 2 grand, so don't spill beer on it
+I've done broadcast work and stuff, but nothing beyond local radio stations.
+neat
+I pretend to twiddle the knobs when the drummer points to his ears
+$2000 now is probably like, $8000 adjusted back to the time I was working on audio. Tech is much cheaper now.
+Stuff available now is freakin' amazing.
+I did manage to drop the $600 wireless mic and receiver, but thankfully, it still works flawlessly 
+Small blessings. :)
+it's pretty neat how good the UI on those things is
+it looks complicated, but everything makes so much sense
+#weather
+Today: Foggy this morning, then partly cloudy this afternoon. A stray shower or thunderstorm is possible. High 86F. Winds light and variable. Tomorrow: Sunny skies. High 88F. Winds light and variable.
+outstandin. we got ribs to go on the smoker soon.
+sounds sexy
+[SoylentNews] - Yelp Warns California Lawsuit Could Scrub Critical Reviews - http://sylnt.us/1a8 - yelp-needs-help
+oh man
+sounds great
+tama: no your parents are the worst for making sure you weren't simply a stain on their sheets
+Okay, chromas.
+I had a pretty good burger
+Not as great here. Hopefully my dog keeps me company for the night. I totally expect her to keep to herself on her bedding. 
+tama drops a log
+~join #dev
+tama: if this movie doesn't <end> with some late-night Cinemax soft-core porn-style scissoring, I want my money back
+Okay, chromas.
+I fucked my stepdad then blackmailed him into buying me a car.
+tama: can we just take a moment to appreciate that we are privileged enough to be witnessing the brilliance of Jack Chick in live action? It's like we've all rolled natural 20s
+Okay, chromas.
+Kevin Macleod is a YouTube conspiracy
+~join #dev
+admin command now
+cos securitah
+i think ~part is anyone though
+hmm. nope its not :|
+[SoylentNews] - Woman Live Streams Disastrous Tinder Date - http://sylnt.us/1a9 - fifteen-is-a-crowd
+well if thats news so is this http://www.inquisitr.com/3512246/victoria-martens-monster-mom-enjoyed-watching-man-kill-her-daughter-and-have-sex-with-dead-body/
+^ 03Victoria Martens: Monster Mom Enjoyed Watching Man Kill Daughter And Have Sex With Dead Body
+But where's the video?
+yeah video or it didn't happen
+and its only news if there's video :p
+hehe hopfeully theyll release ALL the videos/pix after the investigation
+a boat full of tubbies
+tele tubbies
+anyone here still use a cellphone with a slider keypad?
+ive been using some ancient LG slider phone that works like a champ till some of the buttons started getting flakey
+Okay, grandpa, time for your pills
+i found out about old motorola droid 3 that has a nice keybaord. the top row is dedicated numbers
+chromas, wut?
+i got one off ebay. CDMA phone and it wasnt able to activate. took it to verizon and they said nothing we can do about it
+"but theres plenty of other phones to upgrade to. how about the ishit 7"
+7 has awesome lightning connector. like the button. soon it will have only one of everything. and that's a good thing
+only reason i have a phone is for dating. other than that I might use it to call 2 or 3 times a year
+[SoylentNews] - Woman Live-Streams Disastrous Tinder Date - http://sylnt.us/1a9 - fifteen-is-a-crowd
+You can get book-style phone cases with keyboards
+well last few years i read the news on it while sitting on the can
+i saw some bluetooth slider keybaords that attach nicely to iphone
+There still are some smartphones with keyboards
+samsung stratosphere
+they look ok. of course no top number row like that droid 3 but its still too expensive
+shitty expensive phone with shitty keybaord just to get some ass on the weekends
+https://www.amazon.com/Samsung-Stratosphere-I405-Android-Verizon/dp/B007250KN8/ref=sr_1_11?ie=UTF8&qid=1474202791&sr=8-11&keywords=android+phone+keyboard
+^ 03Amazon.com: Samsung Stratosphere I405 4G LTE CDMA Android Slider Phone, Black (Verizon): Cell Phones  Accessories ( https://www.amazon.com/Samsung-Stratosphere-I405-Android-Verizon/dp/B007250KN8 )
+ill give that one a shot after the month runs out with this old one. hopefully the buttons dont flake out after a couple of years
+but im sure the battery life is pretty short
+https://www.amazon.com/Motorola-Photon-XT897-Android-Smartphone/dp/B00HP0XACS/ref=sr_1_31?ie=UTF8&qid=1474203047&sr=8-31&keywords=android+phone+keyboard
+a more spendy one
+^ 03Amazon.com: Motorola Photon Q XT897 Sprint CDMA 4G LTE Android Smartphone Black: Cell Phones  Accessories ( https://www.amazon.com/Motorola-Photon-XT897-Android-Smartphone/dp/B00HP0XACS )
+When I had a keyboard phone, it couldn't keep up with my fingers. The great thing about the touchscreen is it slows me down ;)
+Usually it would skip letters because the next button was pressed too soon
+is there a name for the feature ive seen where unstead of tapping each key u drag your finger to each letter
+and it will try to autocomplete it
+gesture typing or swipe
+I think most of the stock software keyboards do it now
+so before the wall they had a line? http://www.amerika.org/politics/why-socialism-is-always-toxic/
+^ 03Why Socialism Is Always Toxic
+!uid
+The current maximum UID is 6353, owned by cpaadpro
+#smakeadd Perpetual Victim Complex
+"Perpetual Victim Complex" added.
+#smakeadd Compulsive Forwarding Disorder
+"Compulsive Forwarding Disorder" added.
+#smakeadd an onion
+"an onion" added.
+#smakeadd a karate chop
+"a karate chop" added.
+#smakeadd a crusty sock
+"a crusty sock" added.
+#smakeadd a 2x4
+"a 2x4" added.
+#smakeadd a tuba fore
+"a tuba fore" added.
+#smakeadd a nine iron
+"a nine iron" added.
+#smakeadd a pitching wedge
+"a pitching wedge" added.
+#smakeadd a three wood
+"a three wood" added.
+or should those be numerals
+#smakedel a three wood
+#smakedelete a three wood
+#smakeadd a radish
+"a radish" added.
+#smakeadd a rainbow trout
+"a rainbow trout" added.
+#smakeadd a medium trout
+"a medium trout" added.
+#smakeadd a small trout
+"a small trout" added.
+#smakeadd an NCommander novel
+"an NCommander novel" added.
+chromas, that one's already in there
+oh
+well now it's there twice
+at least
+but the more the merrier
+unless you set the field to uniques only
+the special snowflake bit
+#smakeadd a special snowflake
+"a special snowflake" added.
+#smakeadd lesbian gas
+"lesbian gas" added.
+#smakeadd a barrel o' monkeys
+"a barrel o' monkeys" added.
+#smakeadd a barrel o' monkees
+"a barrel o' monkees" added.
+#smakeadd a pudding pop
+"a pudding pop" added.
+rather have dupes than write error detecting code
+#smakeadd Jared's $5 footlong
+"Jared's $5 footlong" added.
+well just ignore the errors :D
+#smakeadd Jared's 6" meatball sub
+"Jared's 6" meatball sub" added.
+#smakecount
+#smakestat
+hrm, i should fix that
+but i'm not gonna do it today
+got ribs and a big hunk of pig and stuffed peppers need smoking.
+#smakeadd . . . ah, never mind. I'll do it later
+". . . ah, never mind. I'll do it later" added.
+noice
+smokers++
+#smakeadd smoked ribs
+"smoked ribs" added.
+#smakeadd a primary key
+"a primary key" added.
+#smakeadd a d12
+"a d12" added.
+#smakeadd a philosopher's stone
+"a philosopher's stone" added.
+#smakeadd yo mama
+"yo mama" added.
+#smakeadd yo mama's stank
+"yo mama's stank" added.
+yo mama's a stank tank
+yes she is
+ciri: who's your daddy? yes I am!
+chromas: There's no denying that in the believe that years of playing with sticks wouldve netted you complex engineering equipment. This dude must be doing something.
+head cheese is not smegma
+#smakeadd a red herring
+"a red herring" added.
+#smakeadd a banana cream pie
+"a banana cream pie" added.
+#smakeadd a creampie
+"a creampie" added.
+!stats
+creating stats for channel #Soylent (Thu Jan  1 00:00:00 1970)
+crutchy - I think Bender's clock is a bit adrift
+or... maybe it isn't o.O
+I wish I could be that young again but with all the present day benefits
+[SoylentNews] - Emacs 25.1 Released - http://sylnt.us/1aa - this-version-is-sentient
+~gday knuckleheads
+~gday janrinok
+I cried, watching the destruction of Terminator 2
+https://www.youtube.com/watch?v=DEMICfWLOig
+^ 03Terminator 2 ending scene - YouTube
+janrinok++
+karma - janrinok: 40
+http://www.healthnutnews.com/government-advises-airlines-spray-pesticides-passengers/
+^ 03Breaking: Woman removed by 6 Policemen off her flight for questioning what was being sprayed ON her! | Health Nut News
+[SoylentNews] - Efficiencies in Supermarket Checkout Lines - http://sylnt.us/1ab - slowest-line-is-the-one-I'm-in
+fisters are sisters
+ciri: more like sisters are fisters
+chromas: Thought they seemed a bit (renting a section of the summonable monsters is twin sisters who actually scissor and become a motorcycle for the weird porn.
+you can't kill the metal. The metal will live on
+[SoylentNews] - Alcohol Industry Bankrolls Fight Against Legal Pot in Battle of the Buzz - http://sylnt.us/1ac - buzzkill
+[SoylentNews] - Game Dev Digital Homicide Sues Valve; Wants Steam "Safe Space" - http://sylnt.us/1ad - internets-never-forget
+Hi guys
+hi BadCoderFinger 
+Eyo!
+Oh, hey juggs, how are you?
+not bad thanks - having a lazy weekend mostly
+unsurprisingly - looks like I need to recompile ZNC following my upgrade shenanigans
+The endless upgrade train, gotta love it.
+Not that I'm immune, I did my time with Arch, heh.
+Sounds painful. This is very much vanilla debian server so pretty much as straight forward as it comes
+Yeah, Debian was always the least amount of headache to upgrade.
+aha - more a case of a little patience rather than needing to recompile znc it seems :)
+Aw, I'm a coder, I never pass up a chance to recompile!
+I will have to anyway as I need to grab a newer version - just wanted to upgrade the OS first
+In that case, happy compiling!
+If you hit a snag, maybe I can help.
+hmmm.... seems znc 1.4 is now in the jessie repos (it was some horrible out of date version in the wheezy repos). /me needs to look at the change logs between 1.4 & current 1.6 versions then decide whether to go with the repo version or not
+Two minor versions could mean a lot of reading...
+indeed. I know there's been a lot of functionality changes - but last I read nothing additional I would actually use! More concerned if there are any security patches
+btrfs snapshot?
+vps snapshot
+Ah, cool.
+my connection at home is too damn flaky to run anything that needs any kind of connectivity reliability
+Yeah, I'm in the same boat. I'm rather unwilling to give comcast any money, so it's CenturyLink, which is almost as bad. Much like presidents, ISPs are always a choice of lesser evils.
+And thar it goes
+Heh!
+Internet ghosts... Isn't there a good movie about those? With a crappy remake on the way?
+Ghost In The Machine or some such?
+Yeah, that was the joke.
+Not an exact fit, though, so maybe not as funny as it was in my head.
+It's ok, I'm an odd one, my humour isn't always on the right wavelength.
+right wavelength for you - you gives a damn if others get it or not :D
+who*
+[SoylentNews] - Puzzling X-Ray Emissions From Pluto - http://sylnt.us/1ae - now-one-from-the-other-side
+Yeah, well, respect is the true currency of an engineer.
+So sometimes it's nice when someone else is on the same wavelength. Of course, when I watch american tv, I'm rather happy that I don't relate.
+snapshot complete... powering up for final sanity checks... very smooth other than a couple of GPG keys and apt having a little brainfart and needing it's bottom cleaned
+Heh, nice!
+Oh - and remembering to change the choice of kernel via the vps provider GUI.... still not sure I understand the need for that....  you do a dist-upgrade in the vm which pulls in a new vmlinuz kernel, but then it actually boots up with something else defined in the hypervisor I guess ~shrug~
+right oh... time to check this shizzle out
+That's... odd. You'd think there would be one and only one way to select the kernel.
+The hypervisor seems to just inject the kernel at boot time - think it's a KVM thing. ~shrug~ I'm no expert on that
+Yeah, that's a QEMU thing, inherited by KVM.
+They should replace the internal method with a warning, though. "You should really change your kernel via the admin interface, this won't work."
+Definitely!
+My work box (Xubuntu, sigh) has a lot of RAM chewed up.
+My OpenBSD craptop is 144 MB.
+I'm not sure how they could insert that warning though without getting all intrusive on what people are doing within their VMs. In the provider GUI this vps still shows as debian 6 but actually it's been upgraded to 7 and now 8. These cloudy vps providers really have nailed the whole orchestration stuff, it's so damn slick being able to spin instances up and down willy nilly in less than a minute.
+Yeah, that's true. It would seem like crossing the line.
+My minty craptop is currently eating 1.5GB - but meh, headless servers and desktop UI installs are very different beasts
+It's not like RAM is the ridiculously expensive proposition it was many years ago
+That's true, I prefer mine to be ZFS cache, heh.
+Which OpenBSD does not have. That's the reason I still have a FreeBSD box.
+OK - nginx has shat its ssl config for some reason during the upgrade
+Natch!
+Andd... back
+Hey, mostly there, can't complain about that.
+newp - easy fix I'm sure. 
+it happens
+there's nothing of note being served - just some MUD maps I did way back when SN had a MUD server running
+not going to bother
+probably not even worth it.
+caddy has tls enabled by default
+also pretty light, not sure what all you're doing... but if it's that simple, meh.
+newp not worth it. This is just my irc bouncer box, just stuffed nginx on there as it was convenient at the time as somewhere to put these maps. They're just tiddly ascii files. CBA with the cert maintenance crud to put them behind ssl/tls for no benefit to anyone.
+caddy sets up tls on it's own, I only mentioned it in-case it comes up again. I wouldn't want to do the https cert shuffle for something tiny / unprivate either.
+Someone might hack them. Better list the SHA hash of the files to be sure. ;)
+mim-zy
+can you imagine the effort, just to change some text
+I could go the letsencrypt route, but I CBA even with that honestly. Oh no... someone might snoop on some ascii mud maps
+snoopes gonna snoop
+I am happy for them to snoop on my carefully crafted maps... means one less thing they can snoop on elsewhere given finite resources xD
+"snoop me please sir"
+they probably knew you had ascii maps before you even thought you would have them.
+I have no idea why, but chortle sounds like something that should be in a Boston accent.
+choytul
+"I choose you Chortle!"
+something like that
+It's a Vega Strike reference and relates to my current choice of nick... surprised he remembers it 
+what was juggs a reference to?
+I forget now
+:)
+how's things SirFinkus ?
+exhausted
+but otherwise pretty good
+on Friday, I was moving shit for around 13 hours
+last night only like 4 hours
+and driving this http://presonus.com/products/StudioLive-2442AI
+^✓ 03StudioLive 24.4.2AI | PreSonus
+moving house or just randomly shovelling literal poop around
+roadie stuff
+ahhh
+we were halfway through moving studios, so we had equipment at both
+and drum risers that are apparently made of depleted uranium 
+lol
+need the weight to kill the harmonics from dissipating or something....  I have no idea if that is a thing, but it seems I may have strung enough words together there to fool someone at least :)
+naw, they're just old as fuck, we have some new ones ordered that are much lighter
+we get to do it all again next weekend
+reminds me of this... https://www.youtube.com/watch?v=H71VEV1c_XE
+^ 03Motörhead - (We Are) The Road Crew - YouTube
+hope you're getting paid for all that lugging stuff about :)
+not much now, band isn't making anything either though
+meh, it's not really about the money, being on tour is about the journey with good friends.... the giggles along the way etc. Besides it beats the hell out of flying a desk for a living :D
+basically, entire band and crew gets beer, gas money, and food
+the level we're at
+self sufficient then almost... got some overheads there on vehicles surely
+k... I'm upgrading my bouncer, I'll be around as OverWatcher
+[SoylentNews] - Apple Unit in Japan Said to Pay $118M to Cover Underreported Tax - http://sylnt.us/1ag - again
+Deucalion: overwatcher? Didst you not see 'Airplane'?  Oveur... OveurWatcher!
+;)
+dishes... biab
+uid
+I don't recall anthing about Airplane other than a nun with a guitar and a blow up auto-pilot... unless I got my films mixed up again :)
+upgrade done... reboot in progress... fingers crossed....
+OverWatcher: Yep, that's the one! "Do you speak jive?"  
+!uid
+The current maximum UID is 6353, owned by cpaadpro
+leslie nielson...  I have no idea how they kept straight faces doing those films. 
+that is quite the achievement, now that you mention it!  I *literally* rolled into the aisle laughing when I saw it in theatres
+s/theatres/the theatre/
+<Bytram> that is quite the achievement, now that you mention it!  I *literally* rolled into the aisle laughing when I saw it in the theatre
+K.. bouncer connected fine to freenode but not SN...
+cert acceptance issue on the wildcar it seems
+OverWatcher: that IS strange -- what's different between the two?  stupid quesiton,but do you have the right port nd security settings?
+thar we blow
+nice!
+Bytram: new ZNC version is more paranoid on cert checking it seems
+security++
+karma - security: 0
+security++
+karma - security: 1
+is it good paranoia or bad paranoia?
+Don't tell me!  I'm afraid to find out!
+I'd consider it good as it protects newbs from goosing themselves, easy enough to override for those that can grok wtf the errors are on about
+"let's get together and kill Bar-ney!
+with the pump of a shotgun blow him out the door.... 
+no more dumb ass di-no-saur!
+sorry... too soon since the dinosaur extinction?
+overwatcher: s/new/bew/
+<TheMightyBuzzard> <overwatcher> I'd consider it good as it protects bewbs from goosing themselves, easy enough to override for those that can grok wtf the errors are on about
+usenet newsgroup:  alt.barney.dinosaur.die.die.die
+outstandin
+ja wohl!
+better:        news:alt.barney.dinosaur.die.die.die
+andddd back
+and forth
+practicing for the site ZNC upgrad Deucalion?
+man, my farts are pretty heinous right now
+that might not save you
+at least that explains the lysol bombs being dropped in the Northwest
+SirFinkus: is you insist on dropping those, you could at least do it downwind from the rest of the country!
+cmn32480, somewhat. I'd rather dry run it on my own bouncer than inflict on the SN staff bouncer. 
+Deucalion++ for thinking or the rest of us
+karma - deucalion: 16
+there those wet feeling ones where you just let out one little pft and smell for like 5 minutes after
+[Deucalion] is using a secure connection [ECDHE-RSA-AES256-GCM-SHA384]  - das better than my pre-upgrade spree managed :)
+try saying that whole thing, but replacing each letter in it with the word that it stands in for... Elliptic Curve Diffie...
+cmn32480, ZNC upg for staff may wait on the overall Bery OS upgrade that mechj has on his list
+I'm not pushing for it
+just wondering if you were practicing
+I DEMAND better ZNC
+something that will make time pass faster for my nickname on nerdrpg
+Deucalion can you fix it so I win nerdrpg?
+cmn32480, just getting ahead of the curve so to speak. Besides, I was running an out of date version.
+SirFinkus, I know feck all about nerdrpg and do not care to know either :P
+you're no fun
+Oh wait... that doesn't work anymore
+~g'night Bytram|away 
+sleep well
+~gnight Deucalion 
+it seems like Bytram|away only comes in irc to tell us he's about to leave
+~gnight Bytram|away 
+I'll handle the queue Bytram|away 
+well, I *did* push out one story and continued editing an upcoming NC novella
+aye, good work
+SirFinkus, tiredness becomes cumulative
+I did jack shit on the wiki today, but I'll get cracking on more tomorrow
+I figure if I make steady progress each day it'll eventually come together
+^^^ lazy
+inorite?
+I'm third all time.
+behind a guy who has been here since day 1, 
+SirFinkus++  it ain't going to be fixed up in a day and no-one would expect such
+karma - sirfinkus: 44
+and bytrma who has been here since almost day 1
+oh, there's a leaderboard?
+https://soylentnews.org/hof.pl
+^✓ 03SoylentNews: Hall of Fame
+fuck me... I had no idea we has a HoF :D
+oh, thought you meant for the wiki
+like the rest of us dind't know we had pisg charts
+surprised the site name story is still #2
+for most visited
+cmn32480, pisg has been in the #soylent topic for like forever dude
+bro
+or summat
+nu uh
+couple months max
+NEVER used to be there
+I concur with cmn32480 
+is there a way to eliminate bots from the stats?
+aye and before that it was subordinate to the useful links or stats link - I forget which. Anyways, it's always been linkied since I put it in place, but mebbe a click or two. Now it's just linkied directly because I canned that stick graph
+I liked the stick graph
+it helped me ship people in irc for my fan fiction
+is not important
+the graphs are nifty
+I need to surpass crutchy's level of spam
+do it on your own end of this porject... the wiki
+the grenades explodes, revealing http://tvtropes.org/pmwiki/pmwiki.php/Main/Shipping
+^ 03Shipping - TV Tropes
+There is no spam... only the rubbery fork you use to eat the spam... see Gaia... find an exit...
+wait no... there is no fork... which means there is no Gaia... and in turn logically I cannot exist....  /me evaporates in an oh fuck moment of clarity :D
+that sounded like a challenge
+amazing...
+Deucalion has turned inot a being of pure energy...
+we must study his methods and attempt to replicate them.
+a seductive, jiggling orb of pure plasma
+either that or ceased to exist... I'm just checking my own status on that point... the logs are not exactly clear
+I'm not sure rsyslog knew how to cope with a "transitioned to pure energy" event
+becha systemd knows
+THEY'RE BACK
+awwww
+just a peek...
+juggy
+Must be a trans-dimensional transport side effect or some such... seemed to happen when the ship accelerated past c - wonder if it will happen again at 2c :/
+careful... you get going too fast you go Plaid
+"Deucalion seems to be sad at the moment: 2.6% lines contained sad faces. :( 
+juggs is also a sad person, crying 2.4% of the time."
+;_;
+heh.. what can I say... always have been a glass half empty kinda guy... so shoot me now :D
+it's hallf empty 'cuz you drank the whiskey
+fill 'er up!
+🔫
+oh wait
+now it's a water gun
+only if you are IRCing from an apple product
+you sure it's not a bowl of petunias SirFinkus ?
+fairly
+and you're not in free fall having just been created....
+~gnight Deucalion 
+we have vertisements now? news to me
+just can't keep up with the bantz
+~gnight SirFinkus 
+not very nice
+Deucalion - we get them subbed from time to time
+one currently in the queue
+~gnight cmn32480 you limpy git
+for some mail client
+but my browesr keeps underlinig soylvertisement when I put it in the ed notes
+ahh the plague of the wiggle lines....  in my mind it just screams "COMPLY" - which immediately makes me want to spel ebryting wrung just to anoy the wigly line bustards
+somesing likke zat
+slup wull
+I should eff off to bed too. Be well all
+~gnight Deucalion
+[SoylentNews] - Vmware Workstation's Installer Loads "Danger-Junk", So Patch It ASAP - http://sylnt.us/1ah - is-that-virtual-junk?
+its flamebait weekend
+with your host ethanol-fueled http://i.imgur.com/9HmAtYp.jpg
+it's true
+except for the colonization part
+tama: Don't <drive> too fast and take corners too quick when you have 3 jimmys in the trunk, for it will give your jimmys a rustle.
+Okay, chromas.
+everybody's allowed to have fake tits
+current rank for team SoylentNews is 425
+[SoylentNews] - California Police use a Robot to Take Away a Suspect's Gun - http://sylnt.us/1ai - watch-your-6
+tama: A lot of vegans <drive> cars. Cars use gas. Gas is made from dinosaurs. Dinosaurs are animals. Vegans are hypocrites.
+Okay, chromas.
+Is she hot? Or at least not utterly revolting? And even if she is utterly revolting, may I turn off the lights beforehand? I'm kind of down to fuck anyone's face, so long as they are female... for the most part... Who'm I kidding, I'd fuck a watermelon if I knew the rind wouldn't chafe.
+ciri: Atheists should talk the Christians into becoming suicide bombers
+chromas: Calling christians bullies because of privilege, not christians.
+if I weren't so lazy I'd punch you in the stomach
+http://downtrend.com/71superb/latino-who-accused-trump-of-racism-for-saying-some-illegal-aliens-are-rapists-arrested-for-rape
+^ 03Latino Who Accused Trump Of Racism For Saying Some Illegal Aliens Are Rapists Arrested For Rape
+poo is already brown
+tama: If you <lack> the self-confidence to tuck your shirt in, you're not ready for marriage.
+Okay, chromas.
+I think the real value of Erlang is the actor model, and specifically, the way it causes you to model things and concepts (or objects, but without the baggage) as isolated processes. This is a direct parallel to the kingdoms of verbs and nouns, but, many OO languages provide isolation for their objects/things/nouns, but not for the processes/verbs
+tama: I'm <beginning> to think it should be hanging in the Museum of Modern Art, next to the other confusing pieces I don't understand.
+Okay, chromas.
+reach out and punch someone
+`chitty gen
+[SoylentNews] - Army of Dancing Robots Queue Politely to Get Their Clamps on the Iphone 7 - http://sylnt.us/1al - robot-lives-matter
+https://lists.gnu.org/archive/html/libreboot/2016-09/msg00052.html
+^ 03Re: [Libreboot] [gnu-prog-discuss] libreboot is not GNU Libreboot anymor
+the man himself speaks
+https://libreboot.org/gnu/
+lel
+^ 03Libreboot opposes the Free Software Foundation and the GNU project
+tama: if you're <making> arguments that require the use of black & white photography, you might wanna suck my ballsac
+Okay, chromas.
+fork it!
+I suggest calling it coreboot
+do you have tp for my bunghole?
+[SoylentNews] - Six US States Declare Emergency after Major Gasoline Pipeline Spill; Media Almost Silent - http://sylnt.us/1am
+coffee++
+karma - coffee: 2872
+[SoylentNews] - Alcohol Industry Bankrolls Fight Against Legal Pot in Battle of the Buzz [Updated] - http://sylnt.us/1ac - buzzkill
+sirfinkus - gewg_ subbed a story on that
+~gday cmn32480 
+~gday cmn32480
+mondays--
+karma - mondays: -1
+coffee++
+karma - coffee: 2873
+smoke break
+nicotine++
+karma - nicotine: 153
+[SoylentNews] - Emacs 25.1 Released [Updated] - http://sylnt.us/1aa - this-version-is-sentient
+~gday TheMightyBuzzard
+~gday mecctro
+NCommander++
+karma - ncommander: 114
+vista, how day you!
+Remember when computers advertised their 64-bit greatness but only came with a 32-bit operating system?
+I remember when you could buy a 386 "math coprocessor" but it was actually just another 386 CPU with floating point math enabled.
+#smakeadd 386SX
+"386SX" added.
+[SoylentNews] - HP Firmware Update Blocks Non-HP Ink Cartridges - http://sylnt.us/1an - time-bomb
+I went into a Radio shack yesterday
+There was a kind of dirty laundry/crusty sock smell. Are they trying to invite hipsters or something?
+There's a Radio Shack that's still open?
+I was also surprised
+It had a pretty sparse layout. One whole entire scanner, a few plastic drawers with all the switches and other toys. Seems like a depressing work environment
+"Ooh, a customer!" "Aw, nor purchase. This can't be my life"
+LOL
+I talked to a guy that was working in a Radio Shack probably...12 or 15 years ago. He had some sort of culinary degree. Apparently at that point they'd stopped hiring people that actually had understanding or interest in how electronics works. I suspect they never changed that policy.
+from the looks of things, we should break into the 3xx range within two weeks!
+they quit being a store for people who knew anything 15-20 years ago
+tried to compete with the big box store type stuff in a small store and couldn't
+flip side was that their inventory was so old they were the only place that had certain items.
+USB to serial converters was one.
+this was especially important when you were on site and needed it yesterday
+ciri: Sure you would. Ass holes like you think having a big mouth makes you a big man. You suck almost as bad as your math. You should not talk about your mother like that. Go fuck yourself.
+chromas: Tama: this acid makes me realise i do not know.
+ciri: I'm vegan you dumb shit. I don't eat, or wear other animals. Fuck you and all the pieces of shit hunters. hope next time you go on the woods a bear takes your worthless head off.
+chromas: As a vegan transgender atheist muslim vegan. He cianssong an elts is thou do in priigher and ons plinger ir loed my gelf and granas.
+omg are you trying to kill me? i almost collapsed laughing... and now i just feel sad because it's true...ï»¿
+damn, EF is the only person on the mod-bombs detection page. i need to step up my game.
+how's OK TheMightyBuzzard 
+treating you... welll... OK?
+flight leaves tomorrow
+enjoying my last allergy-free day for a while
+how long you there for?
+oh i'll be around. parents have a desktop there so i'm just gonna set up an arch install on a vm for the duration.
+[SoylentNews] - After a Weekend of Terrorism, Multiple Bombs Found in New Jersey - http://sylnt.us/1ao - we-have-NJ-jokes-but-maybe-not-the-right-time
+also have a copy of my dev vm and ssh key n such so i can hopefully finish up my work on comments
+ahhh
+not taking TheMightyLaptop?
+nah. sick of dealing with its worthless ass. can't even watch youtube vids on it without overheating it.
+gotta rip the stream then watch them locally
+gotcha
+[SoylentNews] - After a Weekend of Terrorism, Multiple Bombs Found in New Jersey - http://sylnt.us/1ap - we-have-NJ-jokes-but-maybe-not-the-right-time
+Morning soylent
+~gmorning paulej72 
+paulej72, good afternoon to you
+~gday paulej72
+why do people put a background on email?  If I wanted to look at some stupid pattern, I would have it on my desktop
+and frankly, all email ought to be plain text!
+now get off my lawn!\
+cmn32480++
+karma - cmn32480: 69
+And none of those bloody markup languages, either!
+thanks.. I had to get that off my chest
+what part of PLAIN TEXT did you miss.
+Markup _is_ plain text.
+s/_is_/<b>is</b>/
+Oh, silly me.
+s/_is_/<b>is<\/b>/
+Feh.
+plain text should not have markups, adjustments, anything
+ASCII only.  No emoji,  the occassional smiley face :-)
+Yeah, when you get base64 MIME data which exceeds the amount of textual data therein by orders of magnitude...
+Frankly, I hate text based protocols at all.
+all this new fangled crap... 
+Crap, it is. I blame the web.
+And web developers, shoe horning their crap technologies into everything.
+[SoylentNews] - World's Oldest Fish Hooks Discovered in Okinawa - http://sylnt.us/1ar - searching-for-line-and-sinker
+Markup can be implemented using plain text, but that makes some plain text unrepresentable unless you extend the markup syntax to permit you to represent the plain text that's no longer representable.
+FatPhil: and don't even get me started on the shortcomings of Markdown. ghod I hate that shite.
+cmn32480: I agree completely on the plain-text-only-in-email thing.  Anything else is not following the e-mail RFCs.
+I don;t remember why MArkdown was so bad. None of the *actually human readable* markup schemes have been perfect, I thought markdown was one of the least bad.
+However, I'll pull rank on your RFC comment, mail's my job - very little of email has to be plain text, almost everything can have utf-8 in it now.
+rfc(1) is handy for that.
+through dependencies, I presume that will be pulled in by https://packages.debian.org/jessie/doc-rfc ?
+^ 03Debian -- Details of package doc-rfc in jessie
+should give that a go.
+Different deps in ports, but yeah, looks about right.
+Actually, I'm not sure if that's the tool or just the documentation itself.
+haven't followed all the deps to check, but it only takes 30s to undo, and I have 10 minutes before I'm going home, so let's give it a go...
+[Threatpost | The first stop for security news] Cisco Warns of IOS Flaw Vulnerable to ShadowBrokers Attack - http://threatpost.com/cisco-warns-of-ios-flaw-vulnerable-to-shadowbrokers-attack/120668/
+`rfc -s smtp` for an example of basic search.
+(Lists obsoletions as well)
+increment the fart variable
+this puppy looks like the tool: https://github.com/jwerle/rfc
+^ 03GitHub - jwerle/rfc: IETF RFC reader tool
+The BSD port lists http://www.dewn.com/rfc -- but that doesn't seem to have any NS record.
+^ 03ERROR: The requested URL could not be retrieved
+Hmmm, what I should really do is just mail all the RFCs to myself, and then use FTS to search them.
+(my job is writing FTS, so this would be eating my own dogfood)
+You should just print them all out in hard copy and use PFY to search them.
+[SoylentNews] - Borneo Loggers Swap Chainsaws for Cheap Healthcare - http://sylnt.us/1as - growing-need
+haha
+double_standards++
+karma - double_standards: 1
+the praetorians are out to get you
+[SoylentNews] - [UPDATED] After a Weekend of Terrorism, Multiple Bombs Found in New Jersey - http://sylnt.us/1ap - we-have-NJ-jokes-but-maybe-not-the-right-time
+[SoylentNews] - Russia's Dangerous T-14 Armata Tank: Ready for War Next Year? - http://sylnt.us/1at - dangerous-for-whom?
+[Threatpost | The first stop for security news] Spyware Targeting Overseas Travelers Removed from Google Play - http://threatpost.com/spyware-targeting-overseas-travelers-removed-from-google-play/120678/
+the most inhumane way to kill a cane toad is to take it on a date to a rave party
+[SoylentNews] - YouTube Video Makers Charged Over Online Betting - http://sylnt.us/1au - letting-them-worry-now
+cmn32480: I like html email mostly for the few times that I want to have a table in my email
+I just had an absolutely devious idea on how to hide things for my retromalware article
+sup legumes?
+are you taking the peas?
+trying to come up with a synonym for lentil - not an easy task!
+weeds - we already bean there
+cmn32480, I see. I've bean away for a while.
+Lima get ready to shut down for the day.
+why do people call me at 4:30
+[SoylentNews] - Let's Encrypt Won its Comodo Trademark Battle - but Now Fan Tools Must Rename - http://sylnt.us/1av - let's-rename
+man, open source textbooks are GREAT
+I paid only $13 for my math book
+my friend had to pay $350 for his physics textbooks
+noice
+Time flies like an arrow but fruit flies like a banana.
+or something ike that
+Hi
+hello
+how're things?
+how is your day?
+pretty good, first day of school
+what's your major?
+right now, I'm getting a transfer degree
+then I'll go to University of Washington and go for EE
+that's the current plan
+good for you
+I'm very pleased that we use open source textbooks
+I'd like to go back for my Physics PhD
+my math book only cost $13
+wow
+my friend paid $350 for his physics textbooks
+I got hassled by a security guard for singing on the street.
+But I stood my ground - I had the right to sing there.
+He stood there and glared at me through my entire set
+lol
+I'm going to go back tomorrow
+I don't care if no one tips me it's fun to hassle the guards
+I think security guards get a superiority complex
+I figured that if he was in the right, he would call the police.
+what were you singing?
+I was there about a half an hour, but no cops
+yeah, it's mostly threats from those types
+The Star Spangled Banner, America the Beautiful, My Country 'Tis of Thee, Battle Hymn of the Republic, O Clementine
+ahh
+I've heard The Star Spangled Banner is extremely difficult to sing
+It is
+I don't really have the range for it yet
+There are really four verses, but only the first gets sung
+yeah
+I think it's in a weird timing or something too
+yes
+I got up at six this morning after only four hours sleep.  That's unlike me.
+I think it's the new happy pills
+pretty much the same for me, except without the pills
+I need to get back to sleeping normally
+do you feel sleepy?  I don't.  It's a very odd experience.
+yeah, pretty tired, gonna tough it out though
+with caffeine 
+[Threatpost | The first stop for security news] Facebook Fixes Vulnerability That Led to Account Takeover, Pays Researcher $16K - http://threatpost.com/facebook-fixes-vulnerability-that-led-to-account-takeover-pays-researcher-16k/120688/
+[Threatpost | The first stop for security news] Mozilla Patching Firefox Certificate Pinning Vulnerability - http://threatpost.com/mozilla-patching-firefox-certificate-pinning-vulnerability/120694/
+I'm gonna go.  Might be back on later today.
+ok, cya
+don't let the guards get you down
+staying married for the kids is like holding in a shit for your entire life
+[SoylentNews] - American Alligator Older Than Previously Thought - http://sylnt.us/1aw - see-ya-later
+https://scontent-sjc2-1.xx.fbcdn.net/t31.0-8/14362617_337217046618149_8077140236024957077_o.jpg
+your ass will never forgive you
+~folding-rank
+07425
+howdy
+khallow: howdy!  How's things been?
+not bad. Only a few weeks left on my seasonal contract
+nod nod
+how's the work been?
+~submit http://arstechnica.com/gaming/2016/09/microsoft-and-sonys-emerging-4k-pixel-pissing-contest/
+exhausting. I work nights and my sleep has been messed up longer than I can recall
+thought that's not very long :)
+*ouch*
+submission successful - https://soylentnews.org/submit.pl?op=list
+I used to be a morning person, but working on this site 'til near midnight many a night has kindof put an end to that
+of course, I wsa up at 0500 today, so things change, yanno?
+yea
+it's nice seeing you back here... how long has it been?
+I've been on SN for about two years I think
+finally decided to see if I could contribute to development.
+but it's going to have to wait till I can see daylight again
+yeah, I hear ya on that one!
+I've poked at a few thins on the site, but feel like I really need to make some time to *really* dive in
+I've gotten rusty over the years
+s/thin/thing/
+<Bytram> I've poked at a few things on the site, but feel like I really need to make some time to *really* dive in
+did some development in the dotcomm era
+and been doing other stuff since
+nod nod
+i started earlier, but much the same here.
+unfortunately, looks like I'll have night work again this winter
+part of the reason I've been helping out on this site is to get my fingers (and the rest of me!) back into 'the mix'
+though it should be pretty low stress
+stress--
+karma - stress: -1
+yea, 
+I've heard it said "stress is resistance to what *is*"
+brb dinner should be ready.
+I should check on my laundry too
+back
+back
+btw, I really enjoyed your journal article about yellowstone!
+thanks
+had a great balance of suspense and anticipation
+wish I had more to write about, but I just feel like a slouch all day
+maybe my downtime before December will recharge my batteries.
+I understand... some days the 'muse' is with me, and on others... not so much
+that's one of the reasons I'm thinking of moving to days
+at least I'll have more energy for doing stuff at Yellowstone
+getting some sunlight sure helps with my attitude on life
+yannno... have you ever given any thought to being an editor on the site?  You certainly seem to have the writing chops based on that story and other things I've seen from you.
+whereto?  http://go.theregister.com/feed/www.theregister.co.uk/2016/09/19/australian_securities_exchange_offline/
+^ 03Epic snafu takes Australian Securities Exchange offline • The Register ( http://www.theregister.co.uk/2016/09/19/australian_securities_exchange_offline/ )
+The problem Bytram is that I have rather opinionated views and maybe a really loud mouth
+[SoylentNews] - High School Slacker Hacker Gets LTE for Free, T-Mobile Customers Confused - http://sylnt.us/1ax - formerly-freebie
+I'd rather be arguing over other things than whether my views are influencing my editing decisions
+but yes, I have thought about it
+that's honest -- I respect anyone who recognizes their shortcomings/weaknesses and is willing to own them.
+well, i suppose if one really wanted to, there's a way to impose views on things... 
+I think a lot of people really want to, it's kind of a traditional human thing
+but in most cases, there's the knowledge of community 'feedback' -- that helps keep me in check
+true, this is not an echo chamber
+takes a bit of a tough skin, too,.
+I agree with that. That's moderately what happened to me with my current job
+Although I was able to make some lemonade out of those lemons
+good!
+not the needing tough skin part, the making lemonade part!!
+I remember they initially offered the same pay as my old day job
+yea
+but the job was open in the first place because nobody else wanted it
+it had more responsibility
+ooops.
+and night work of course
+did it havfe more authority?
+A little
+responsibility w/o authority 8stinks*
+I currently supervise a team of nine other people
+that's quite a few
+and I get a huge amount of cooperation from everyone else in the department
+NICE!
+teamwork++
+karma - teamwork: 28
+It's exhausting because the work is seasonal, the turnover rather high, and the training rather onerous for a seasonal job
+It takes about a month for someone good at the work to get up to speed
+ugh.
+it can take more than the entire season for someone who isn't so capable
+And then I lose about two thirds of the staff between summer seasons
+so, just when they become truly useful, they're gone. :(
+you got it
+If Yellowstone were further south, we probably would have a bunch of full time people and it wouldn't be quite as big a problem
+is there some way to partition things so the 'seasoned' folk can deal with the 'hard' stuff, and leave more of the 'simple' stuff for the new hires?
+not really unfortunately
+bummer!!
+everyone tends to work at a location by themselves
+oooooh.
+there's some stuff that they can do, like call others and ask questions
+yea, BTW this is night auditing
+making sure it stays dark at night?
+it's pure entering in sales data, checking for mistakes
+;)
+no kidding
+and fixing problems before guests wake and wonder why this is on their bill
+aha.
+checking laundry brb
+so we're talking about much more than just random concession stands
+k
+time for dishes... biab, too.
+yea Bytram, I work for a concessionaire that manages all the hotels, lodges, and cabins, most of the restaurants, and all of the big campgrounds in the park
+that's quite an operation!
+is it all done on paper or do they have some automation / databases / etc.
+there is some automation though there's plenty of room for improvement
+I could kinda tell. =)
+we stick all of the data onto a common spreadsheet and then it automatically distributes to who needs it
+a lot of the auditor work could be automated
+but that would require paying someone
+just having a filter to pull out the common errors and automagically attend to those should help.
+heh.
+But we also go through signed receipts and other paperwork
+ahhh.
+so that would hard to automate
+scanner
+OCR
+yea
+but I hear ya.
+or a fancier point of sale system
+if the signatures are electronic, then that's a huge part of the overall workload
+ooooh, so the auditors have to be at the physical location to deal with the paper-trail
+indeed
+and I often end up traveling a fair bit over the night
+so, the auditors have to go to the data, instead of bringing all the data to one place.
+basically each auditor stays at the location
+with a few travelers who move between a pair of locations
+do you have internet to each location?
+nod nod
+yes, except for one particularly isolated location which doesn't have an auditor
+remind me not to stay *there*
+In addition, there is an even larger day staff at each location
+makes sense
+that's when there are more people around
+people don't go to Yellowstone for the internet :)
+they handle a lot of other stuff too
+but some people who do go there wonder why they can't get online, too, I bet.
+you bet
+especially kids
+LOL
+they keep complaining that their brain parasite isn't working right :)
+ROFL!
+but I need to update my fartbook!
+civ 5 over here.
+now wait a minute... that might actually be something important!   <tongue location="cheek">
+currently I'm just making sure my workers are working
+not very difficult
+that's a very good place to start.
+there isn't even another player within half a world of me
+reason I asked about internet... maybe you could, effectively, 'skype' all the auditors together?
+I'm not even seeing barbs until now and they're on very rabid
+meh, sort of
+as long as we don't have to connect via a node outside of the park
+the exit is pretty messed up
+yeah, INTRAnet
+then sure, we could do that
+we keep connected by phone right now
+idea being you could hold up a receipt, for example, and others could *see* what you were talking about.
+I'm currently playing on some huge Earth map with three computer players
+would cut down on the amount of talk needed to describe a problem.
+yea.
+currently, we can't scan that stuff
+a skype-like interface might not have the resolution
+why not?
+sorry, my msg crossed with yours.
+no scanners :)
+as to the resolution
+sometimes it's stuff like trying to make out a signature
+which kind of looks like another signature with a guest attached
+a cheap camera phone would prolly be good enough... upload, send.
+yea
+unfortunately, it's a tenuous justification at present
+usually, anything that they have problems with can be resolved by calling me
+and verbally describing the situation
+hmmm
+and when it can't there's always the day staff to make it better ;-)
+we can't afford to spend a lot of time on a single problem
+if it can't be resolved quickly then we often just move on
+unless we're in late season like now and are bored
+pick the location where it would provide the best benefit, and do a rollout of skype/scanner/whatever THERE.
+nod nod
+phone call... biab
+laundry coming up
+yeah, gtg.  been great chatting with ya!
+hope you have a great night!!
+see you around
+thanks
+np!
+cheers!
+#submit http://www.telegraph.co.uk/news/uknews/crime/6440589/Date-rape-drink-spiking-an-urban-legend.html
+Submitting. There is a mandatory delay, please be patient.
+howdy
+Submission successful. https://soylentnews.org/submit.pl?op=list
+evenin, khallow 
+not much going on over here
+killing some time then I go to work
+ya, doing some last minute packing before i head out in the morning here. house sitting for two weeks.
+good night then
+I better get some sleep in before work
+yep, happy pillow to ya
+[SoylentNews] - First Wave-Produced Electricity in US Goes Online in Hawaii - http://sylnt.us/1ay - bobbing-for-applications
+[SoylentNews] - High School Slacker Hacker Gets LTE for Free; T-Mobile Customers Confused - http://sylnt.us/1ax - formerly-freebie
+off to work
+excellent
+mmm, some vanilla beans in with the coffee today
+coffee++
+karma - coffee: 2874
+that's what she said
+bedtime++
+karma - bedtime: 2
+lol
+[SoylentNews] - Defeating Patent Trolls With Crowdsourcing - http://sylnt.us/1az - review-this
+tama: her boobs are bigger than my future
+Okay, chromas.
+Our hair looks like pasta. Our testicles look like meatballs. Our blood looks like tomato sauce. Our armpits smell like vintage  is some coincidence? Praise Flying Spaghetti Monster!
+[SoylentNews] - MIT and AMS Institute to Collaborate on Self-Driving Boats - http://sylnt.us/1a- - now-ALL-the-world's-a-stage
+think geek has some neat stuff
+ciri: shift codes still don't work on bonerlands. disappointment
+chromas: Cookie monster! 2, Don't send our men to fire women for unsatisfactory work?) i may have a function that sifts through.
+uh can pimp out your bl2 shiz tho
+Did you get some molecule earrings?
+no, haven't come across them yet
+scoping out their sale items, and shirts
+want me to load up bl2, can show you some hax
+Are there in-game hacks? I've used cheat engine before
+Writing a scripting engine seems like every 10-15 years turkey's secular military has to step in to the foomsing natulme.
+Got many skins
+uno momento sir
+pretty slick
+it's pretty much there for "dude lets play a game"
+morning--
+karma - morning: -4
+since boot is never really finished, the distinction is moot anyway
+ooh, I can use the mouse and gamepad at the same time
+the key to a great marriage is finding a woman who looks sexy when she's disappointed.
+ciri: schneitzencraften
+chromas: That's the usual with women? The answer is in your women's studies degree." "careful, its political parties allowed themselves to advocate censorship?
+2spooky4me
+your mama comes in rolls
+tama: I come in your mama's rolls
+Error 42: Factoid not in database.  Please contact administrator of current universe.
+ciri: gimme the nude patches
+chromas: I choked on my hands and knees. I'm telling|not really an insult. Are we not supposed to use snapchat for things beyond nude selfies?
+your mom is associated with that keyphrase
+ciri: What ever happened to Kate from Kate's Playground? I just remember her because of her clubfoot. Google "what the hoof"
+arti: 14 Year old mermaid and fuck it then the next thing you unexpectedly and shamefully remember some nights while laying in bed and believe whatever you want to hear.
+Let me state bluntly - anyone who has even the slightest bit of education in the physical sciences who believes this nonsense ha are chafing against his pelvis. There's no hope for some people, they apparently LIKE the atmosphere found inside of an anus!
+ciri: she went on to become a professional golder
+chromas: Yo mama's so binary she runs systemd. What happens when the government has become controlled by the "chicken breaks" were priceless!!!
+ciri: golfer
+chromas: Meine url ist l�nger als deiner.
+once a king always a king. Once a knight, is enough
+[SoylentNews] - DEF CON 24 - Chris Rock - How to Overthrow a Government - http://sylnt.us/1b0 - fly-the-coup
+tama: Most of the women complaining are fat whales that need to be harpooned by Japan anyway
+Okay, chromas.
+chromas, Gives tama fuji apple and takes about tree fitty, but god is in dire need of a refugee complaining" and "last" elements.
+have you considered that unix is the ibm pc of operating systems?
+ciri: "Yeah, we need more sexy men in ads." Reaction from feminists: There are more sexy males in ads than females! Injustice! Inequalty!! Oppression!!!
+chromas: Disregard females cultivate mass.
+even if they won't admit to it
+tama: Just because I <use> my girlfriend as a coffee table doesn't mean that I don't acknowledge her being human. Can't have sex with an actual coffee table.
+Okay, chromas.
+ciri: or can I?
+chromas: Ciri: this comment section is saltier than the holocaust? People who mainstreamed its use, because shit's about to say that.
+trump is a plump gump dump
+ciri: the worst thing about borderlands 3, aside from the Australians, is the censorship
+chromas: I played and finished borderlands and borderlands 2 and diablo 3 on discs but it died right after connecting.
+I made a point of posting a snarky comment in response to one of those, but it had no effect (like a fart in a hurricane).
+current rank for team SoylentNews is 424
+[SoylentNews] - The Case for Wooden Skyscrapers - http://sylnt.us/1b1 - feed-the-termites!
+http://www.reuters.com/article/us-usa-attacks-bag-idUSKCN11Q029
+^ 03A New York tale: Two men find bag, remove bomb, take bag| Reuters
+[SoylentNews] - SpaceX's Mars Colonial Transporter Becomes the "Interplanetary Transport System" - http://sylnt.us/1b2 - it's-ITS!
+Also he finished. On the inside.
+coffee++
+karma - coffee: 2875
+hrm, may as well update arch before i run off and leave for a couple weeks
+gotta keep tidy
+~gday TheMightyBuzzard 
+Leave it running so you can ssh and update every few days
+coffee++
+karma - coffee: 2876
+it's brewing...
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+I'm just counting mine.
+might need it by IV this morning
+Hey, you wanted to wake up
+I don't mind just-a-lil in my coffee
+demuxed
+[SoylentNews] - Hillary Clinton IT Worker asked on Reddit how to Tamper with Email Record - http://sylnt.us/1b3 - can-you-say-Doh!
+safe travels TheMightyBuzzard 
+ciri: They have even propagated the myth that for expecting mothers to care for their own babies is an example of the oppression of women by the patriarchy.
+chromas: So you can get around to that for expecting mothers to care for their own babies is an acorn.
+people with a lisp can't say "lisp"
+tama: She <was> a strong, naked woman and his joke downplays the importance of her as an actress.
+Okay, chromas.
+jet set radio!
+4776 words in story
+Damn
+it's hard to stop when you're hardcore geeking out on a topic
+whether or not you decide to edit is up to you, of course.
+[SoylentNews] - Retro-Malware: DOS TSRs, Interrupt Handlers, and Far Calls, Part 2 - http://sylnt.us/1b4 - now-you-can-be-1337-by-knowing-what-a-far-call-is
+howdy
+ok, that works
+hi khallow
+hi
+I think my article broke the community
+Hmm, I didn't realise those sorts of articles were welcome.
+I've a bunch of articles I wrote for newsgroups a while ago, and I was looking for a new home for them.
+Technical articles, that is.
+I didn't realise you were doing a series.
+You could submit them if you wanted; or you could just post them as journal entries.
+I don't remember if SN has the "submit journal to editors for potential inclusion on the front page" that /. does
+It'd spare me the pain of finishing my new website, at least...
+you should go back to working on getting Pale Moon working on BSD.  :)
+A lot of it is deeply-embedded related, exploiting such systems, inventing new and exiciting Forth implementations and a sprinkling of scientific data acquisition and processing.
+Pft!
+I did sit down and digest some of that other fella's patches, but they're a bit crap. I might as well work off Tycho, I reckon.
+First problem I've encountered is the segfault in libxul when trying to parse an XPI.
+that's probably the place to start - especially if you figure on it taking you a while.
+That'll fix installing extensions, at least.
+Aye, it's a matter of having spare cycles, but I'm sufficiently displeased with FF to do so.
+Even if it costs me my sanity having to deal with autohell.
+boru, you're trying to get Mozilla working on BSD? Brave man
+boru, I tried to port Firefox 10 to IRIX. I got as far as getting Spidermonkey to pass it's self-test and XPI to initialize but I couldn't get the entire thing to link; not enough address space (stupid thing is too fat)
+This is PM, as opposed to FF; It links and runs with some judicious autoconf flaggy bits just fine, so far.
+i.e. turning off the Linux bits.
+So far, so good, but it's not near ready for prime time just yet.
+boru, well, PM is still based on the common Mozilla code. XPI is absolute pain since its poorly documented, and you have to know both your hardware architecture and calling conventions to make it go
+FreeBSD's userland allocated storage implementation is jemalloc, so it's 5x5 turning that stuff in PM.
+NCommander: "based on" yes, but has diverged considerably.
+AndyTheAbsurd, my understanding is it was still based on the core frameworks. XPI, NSS, and NSPR + Gecko
+Yeah, some of the devs have told me about the fun inner workings.
+[SoylentNews] - Three Percent own Half of America’s Guns - http://sylnt.us/1b5 - taking-aim-at-statistics
+I've been tempted to write patches for Pale Moon to add DANE support but I dunno if they'd be accepted
+they've forked Gecko as well - their version is called Goanna
+Missed that bit
+Doesn't surprise me. Gecko really has gotten fudgly since Mozilla basically "just don't care" on a lot of it as far as I can tell. the WebGL stuff is beyond horrid
+Caused the devs a bunch of trouble because there's a user-agent detection library that just searches for "Goa" to detect the mobile device Wiko Goa.
+I'd maintain the FreeBSD port, but I'd like to trick^Wtalk someone into helping with bug finding and patches.
+And both Moonchild and Matt A. Tobin have repeatedly stated that patches are welcome, so make them prove it. :)
+Since I don't have the cycles to be very active at the moment.
+boru, FreeBSD ports team would probably help a lot
+You miscontrue, that part is easy. I've been a port maintainer for a while.
+I mean the actual modifications to the PM codebase.
+boru, you need commit access ;)
+they're both pretty active in #palemoon over on Freenode
+That's not a problem.
+boru, what sort of articles would you like to run?
+boru, I'm glad to have other people run original content for SN
+More or less what I alluded to above. Nothing to get the site into trouble, though.
+Though, arguably, those are the interesting parts.
+boru, feel to write it up, and we can post and edit it. I can give you an editor's account on dev to let you draft it sanely, and then copy it over when its done
+Aye, I might take you up on that if/when I get around to it. It's all plain text, so it'll probably need a bit of dressing up for the site.
+Shame we can't submit via NNTP!
+boru, I actually did some work on tying SN to NNTP awhile ago. Got semi-bidirectionaity working but INN is kinda crap for this sort of thing
+Indeed. The web is broken.
+boru, https://soylentnews.org/article.pl?sid=14/07/21/1627239
+^ 03SN article:  Request For Comments: SoylentNews->Netnews (NNTP) Gateway 04(39 comments)
+I'll grok that in a bit.
+boru, the largest problem is basically INN sucks hardcore for getting data out and moderated groups. You have to have a DIY filter to handle Approved, and then kick it backwards into an outbound UUCP spool where perl could grok it into posts. To ties into username authetication gets into very very ugly territory
+Well, you can use any external auth mechanism you want.
+(With INN that is)
+I think the solution is to do away with the website altogether and just host an NNTP server.
+SNR would soar!
+I can imagine tying the commenting together is a bit of a pain in the arse, though.
+boru, right, but I can't embed that information into headers easily. i.e., user X sent post X without patching INN
+boru, furthermore, for things like moderation, I'd have to tie in the ability to cancel and repost for score changes which would change the sequence ID in NNTP causing a message to show as NEW
+Ah, I see where you're going, I  think.
+Yeah.
+So I'm reading through Ncommander's TSR article and I thought, if we want to persue ho-to's and other user submitted tech articles, how do we find them easily in the future for reference without resorting to bookmarks?
+How about a new category with a quick link for the how-to's and technical stuff?
+LoRdTAW, We're adding a new Nexus in the future for original content. Right now, I've just dumped them into /meta since that's where all "original" content (mostly site stuff) goes
+Ah, excellent. I look forward to it.
+Tags and filters would be useful for that, also, as well as my own personal grumpiness; I really wish I could filter out politically-slanted articles...
+LoRdTAW, we have a site update brewing, but it got sidetracked by TheMightyBuzzard
+boru, you can filter by author and by topic
+Sure, but a blacklist would be nice e.g. everything-except-politics
+... you used to be able to filter by topic
+That appears to have broken
+boru, we might move politic stories to their own nexus, which can be then filtered out or displayed "minimized"
+Define 'nexus'.
+boru, a special top level category for stories. They get a special banner on the top
+I hope you don't mean something like `subject.sn.org` -- it'd be a pain in the hoop  having to switch domain to read multiple categories I'd be interested in. Say, technology and science, for example.
+Hmm.
+boru, its actually the same feature, but we rewrote it to use soylentnews.org/nexus_name
+(we can attach a seperate subdomain if we want. I.e., if we ever do soylentnews.jp, we can host it on one copy of the site, and then just have content loaded automatically)
+I still kind of like my filtering idea. 'Filter' being the keyword; I want to read anything which might be interesting, but not topic X.
+Fair enough if that's unrealistic. Just thinking aloud.
+boru, still tricky to implement though TBH. I'll accept patches for it if you want to implement it.
+Noted. I'll have to patch life, first.
+dd if=/dev/zero of=/dev/boru/responsibilities bs=1M skip=1 # first MB has things like eating and breathing
+Uptake on comments is kinda muted :(, the previous article kinda exploded
+The comments feature, or comments on site direction/development?
+boru, just comments on the article
+1 client should have been opped.

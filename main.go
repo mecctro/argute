@@ -447,7 +447,7 @@ func saveCharRNNLog(input string) {
 	defer in.Close()
 
 	// Write the string to file
-	_, err = io.WriteString(in, input+" ")
+	_, err = io.WriteString(in, input+"\n")
 	if err != nil {
 		fmt.Println(err)
 	}
